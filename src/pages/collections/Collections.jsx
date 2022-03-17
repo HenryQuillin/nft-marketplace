@@ -22,7 +22,11 @@ export default function Collections() {
   useEffect(() => {
     axios
       .get(`https://ftx.us/api/nft/collections_page`, {
-        params: { startInclusive: 2, endExclusive: 20, collectionsType: "all" },
+        params: {
+          startInclusive: 10,
+          endExclusive: 40,
+          collectionsType: "all",
+        },
       })
       .then(function (response) {
         console.log(response)
@@ -36,6 +40,7 @@ export default function Collections() {
             name: collection.group_id,
             sprite: collection.first_nft.imageUrl,
             total: collection.total,
+            floor: collection.first_nft.offerPrice,
           }
         })
         setCollectionData(newCollectionData)
@@ -46,7 +51,7 @@ export default function Collections() {
   // }
 
   const getCollectionCard = (collectionId) => {
-    const { id, name, sprite, total } = collectionData[collectionId]
+    const { id, name, sprite, total, floor } = collectionData[collectionId]
     return (
       <Grid item xs={12} sm={6} md={4} lg={3} xl={2} key={collectionId}>
         <Card onClick={() => navigate(`/${id}`)}>
@@ -69,38 +74,52 @@ export default function Collections() {
               />
             </div>
             <CardContent sx={{ p: 2 }}>
-              <Typography variant="h5">{`${name}`}</Typography>
+              <Typography
+                variant="h5"
+                sx={{ whiteSpace: "nowrap" }}
+              >{`${name}`}</Typography>
               <Grid
                 container
                 spacing={2}
                 sx={{ mt: 2 }}
                 style={{
-                  marginTop: "16px;",
-                  display: "flex;",
-                  flexWrap: "nowrap;",
-                  alignItems: "flex-end;",
+                  marginTop: "16px",
+                  display: "flex",
+                  flexWrap: "nowrap",
+                  alignItems: "flex-end",
                 }}
               >
                 <Grid
                   item
                   xs={6}
-                  style={{ display: "flex;", flexDirection: "column;" }}
+                  style={{ display: "flex", flexDirection: "column" }}
                 >
                   <Typography variant="h6" color={theme.palette.text.secondary}>
                     NFTs
                   </Typography>
                   <Typography variant="h5">{`${total}`}</Typography>
                 </Grid>
-                <Grid
-                  item
-                  xs={6}
-                  style={{ display: "flex;", flexDirection: "column;" }}
-                >
-                  <Typography variant="h6" color={theme.palette.text.secondary}>
-                    Floor Price
-                  </Typography>
-                  <Typography variant="h5">{`${total}`}</Typography>
-                </Grid>
+                {floor ? (
+                  <div>
+                    {" "}
+                    <Grid
+                      item
+                      xs={6}
+                      style={{ display: "flex", flexDirection: "column" }}
+                    >
+                      <Typography
+                        variant="h6"
+                        color={theme.palette.text.secondary}
+                        sx={{ whiteSpace: "pre" }}
+                      >
+                        Floor Price
+                      </Typography>
+                      <Typography variant="h5">{`${floor}`}</Typography>
+                    </Grid>
+                  </div>
+                ) : (
+                  ""
+                )}
               </Grid>
             </CardContent>
           </CardActionArea>

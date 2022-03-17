@@ -31,13 +31,13 @@ export default createTheme({
   typography: {
     h5: {
       fontFamily: '"Lato", "Roboto", "Helvetica", "Arial", sans-serif',
-      fontWeight: 500,
+      fontWeight: 600,
       fontSize: "1.3rem",
     },
     h6: {
       fontWeight: 400,
       lineHeight: 1.42,
-      fontSize: '0.8rem',
+      fontSize: "0.8rem",
     },
   },
 })
