@@ -1,6 +1,38 @@
-# Tests 
+# FTX NFT Marketplace Take Home Project 
+## Initial Acceptance Criteria
+ - User should be able to browse a list of collections
+ - User should be able to browse individual NFTs within a collection 
+### Additional features I added
+ - User can use search bar to filter NFT collections 
+ - User can click on an NFT within a collection to view that NFT's details 
+## Dependencies 
+ - React.JS
+ - Material UI 
+ - Axios 
+ - React Testing Library 
+ - Jest 
+## How to set up 
+1. Clone the repo:
 
+    git clone https://github.com/HenryQuillin/nft-marketplace.git
+ 2. Navigate to the project file: 
+ 
 
+    cd nft-marketplace
+2. Install the dependencies 
+
+    yarn install 
+3. IMPORTANT install the # Moesif Origin & CORS Changer 
+	If you do not do this you will get this error when trying to make a request to the FTX API 
+	
+
+    Access to XMLHttpRequest at 'https://ftx.us/api/nft/collections_page?startInclusive=25&endExclusive=50&collectionsType=all' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+
+ Start the react app 
+
+## Decisions and tradeoffs 
+## If I had more time 
+## Original Readme 
 
 
 
