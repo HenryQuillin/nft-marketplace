@@ -6,6 +6,7 @@ import Collection from "./pages/collection/Collection"
 import Collections from "./pages/collections/Collections"
 import theme from "./theme"
 import Header from "./pages/app/Header"
+import NftPage from "./pages/nft/NftPage"
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Collections />} />
           <Route path="/:collectionName" element={<Collection />} />
-          <Route path="/nfts/:nftId" element={<Collection />} />
+          <Route path="/:collectionName/:nftId" element={<NftPage />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

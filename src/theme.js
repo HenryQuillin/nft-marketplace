@@ -31,16 +31,21 @@ export default createTheme({
   typography: {
     h5: {
       fontFamily: '"Lato", "Roboto", "Helvetica", "Arial", sans-serif',
-      fontWeight: 600,
+      fontWeight: 700,
       fontSize: "1.3rem",
     },
     h6: {
       fontWeight: 400,
       lineHeight: 1.42,
-      fontSize: "0.8rem",
+      fontSize: "0.9rem",
+    },
+    h6B: {
+      fontWeight: 700,
+      lineHeight: 1.43,
+      fontSize: "0.95rem",
     },
   },
   shape: {
-    borderRadius:8,
-  }
+    borderRadius: 8,
+  },
 })

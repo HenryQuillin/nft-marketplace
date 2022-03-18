@@ -13,14 +13,15 @@ import { useNavigate } from "react-router-dom"
 export default function NftCard({
   collectionName,
   name,
+  id,
   offerPrice,
   highestBid,
   image,
-  currency
+  currency,
 }) {
   const navigate = useNavigate()
   return (
-    <Card onClick={() => navigate(`/${name}`)}>
+    <Card onClick={() => navigate(`./${id}`)}>
       <CardActionArea>
         <div
           style={{
@@ -70,9 +71,17 @@ export default function NftCard({
               }}
             >
               <Typography variant="h6" color={theme.palette.text.secondary}>
-                Price  
+                Price
               </Typography>
-              <Typography variant="h5">{`${offerPrice} `}<span style={{color:theme.palette.text.secondary, fontSize:"1rem"}} >{`${currency}`}</span></Typography>
+              <Typography variant="h5">
+                {`${offerPrice} `}
+                <span
+                  style={{
+                    color: theme.palette.text.secondary,
+                    fontSize: "1rem",
+                  }}
+                >{`${currency}`}</span>
+              </Typography>
             </Grid>
             {highestBid ? (
               <div>
@@ -83,7 +92,7 @@ export default function NftCard({
                   style={{
                     display: "flex",
                     flexDirection: "column",
-                    whiteSpace:"nowrap"
+                    whiteSpace: "nowrap",
                   }}
                 >
                   <Typography
