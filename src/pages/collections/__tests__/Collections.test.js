@@ -31,7 +31,9 @@ describe("Collections page", () => {
         </Routes>
       </BrowserRouter>
     )
-    const CollectionCard = await waitFor(() => findAllByTestId("collection-card"))
+    const CollectionCard = await waitFor(() =>
+      findAllByTestId("collection-card")
+    )
 
     expect(CollectionCard).toBeDefined()
     expect(axiosMock.get).toHaveBeenCalledTimes(1)

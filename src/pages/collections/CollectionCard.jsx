@@ -78,7 +78,7 @@ export default function CollectionCard({
                   style={{
                     display: "flex",
                     flexDirection: "column",
-                    whiteSpace:"nowrap"
+                    whiteSpace: "nowrap",
                   }}
                 >
                   <Typography
@@ -91,7 +91,13 @@ export default function CollectionCard({
                     Floor Price
                   </Typography>
                   <Typography variant="h5">
-                    {`${floor}`} <span style={{color:theme.palette.text.secondary, fontSize:"1rem"}} >{`${currency}`}</span>
+                    {`${floor}`}{" "}
+                    <span
+                      style={{
+                        color: theme.palette.text.secondary,
+                        fontSize: "1rem",
+                      }}
+                    >{`${currency}`}</span>
                   </Typography>
                 </Grid>
               </div>

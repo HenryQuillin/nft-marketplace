@@ -16,9 +16,6 @@ export default async function getCollectionsData(
       collectionsType: _collectionsType,
     },
   })
-
-  console.log(response)
-
   const { data } = response
 
   const { result } = data

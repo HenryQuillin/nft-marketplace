@@ -47,7 +47,9 @@ export default function Collections() {
       <Box sx={{ p: 1 }}>
         <Pagination
           onChange={handleChangePage}
-          count={totalCollections && Math.floor(totalCollections / itemsPerPage)}
+          count={
+            totalCollections && Math.floor(totalCollections / itemsPerPage)
+          }
           variant="outlined"
           color="primary"
         />
