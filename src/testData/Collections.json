@@ -1,0 +1,2822 @@
+{
+    "data": {
+        "success": true,
+        "result": {
+            "count": 5290,
+            "collections": [
+                {
+                    "group_type": "collection",
+                    "group_id": "Fancy Frenchies",
+                    "total": 611,
+                    "volume": 54685.5211214095,
+                    "first_nft": {
+                        "id": "288780092380852378",
+                        "name": "Fancy Frenchies #9869",
+                        "description": "Every dog must have his day. Luxury never goes out of fashion. These are fancy frenchies.",
+                        "issuer": "Fancy Frenchies",
+                        "collection": "Fancy Frenchies",
+                        "series": "Fancy Frenchies",
+                        "solMintAddress": "FoTW2hubCoeCUYczKE3bS5iAvEELp5HMoVURkYhc15Mk",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://www.arweave.net/Jrq7aQoTJuAek_b_2RN-JJvOdwnq9VQ8OaTEfRE07Pw?ext=png",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Background": "Red",
+                            "Fur": "Galaxy Fur",
+                            "Clothing": "Hawaiian",
+                            "Neck": "Bandana (Red)",
+                            "Head": "Galaxy Head",
+                            "Eyes": "Patch",
+                            "Head Wear": "Helmet",
+                            "Mouth": "Joint"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Red",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "Galaxy Fur",
+                                "trait_type": "Fur"
+                            },
+                            {
+                                "value": "Hawaiian",
+                                "trait_type": "Clothing"
+                            },
+                            {
+                                "value": "Bandana (Red)",
+                                "trait_type": "Neck"
+                            },
+                            {
+                                "value": "Galaxy Head",
+                                "trait_type": "Head"
+                            },
+                            {
+                                "value": "Patch",
+                                "trait_type": "Eyes"
+                            },
+                            {
+                                "value": "Helmet",
+                                "trait_type": "Head Wear"
+                            },
+                            {
+                                "value": "Joint",
+                                "trait_type": "Mouth"
+                            }
+                        ],
+                        "number": "9869",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-12-29T15:21:26.793728+00:00",
+                        "createdAt": "2021-12-29T15:21:26.793728+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": true,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": 0.8
+                    },
+                    "issuer": {
+                        "id": 397,
+                        "time": "2021-10-10T19:06:05.204332+00:00",
+                        "status": "approved",
+                        "issuer": "Fancy Frenchies",
+                        "isVerified": true,
+                        "mintSource": "sol",
+                        "createdAt": 1633892765.204332
+                    },
+                    "collectionDict": {
+                        "id": 421,
+                        "name": "Fancy Frenchies",
+                        "displayName": "Fancy Frenchies",
+                        "twitterUrl": "https://twitter.com/fancyfrenchnft",
+                        "discordUrl": "https://discord.gg/bGHkb6YagU",
+                        "homepageUrl": null,
+                        "description": "Every dog must have his day. Luxury never goes out of fashion. These are fancy frenchies.",
+                        "markdownDescription": null,
+                        "createdAt": 1635277718.350921,
+                        "featured": true,
+                        "position": 7,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/77287c85-d1eb-4aa7-ba03-edd4730b5f8a.jpeg",
+                        "bannerImageId": 47360,
+                        "cardImageUrl": "https://static.ftx.com/nfts/2454a9b5-1e64-4735-a8cc-0a972401e3cb.png",
+                        "cardImageId": 47359
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Fancy Frenchies",
+                    "total": 611,
+                    "volume": 54685.5211214095,
+                    "first_nft": {
+                        "id": "288780092380852378",
+                        "name": "Fancy Frenchies #9869",
+                        "description": "Every dog must have his day. Luxury never goes out of fashion. These are fancy frenchies.",
+                        "issuer": "Fancy Frenchies",
+                        "collection": "Fancy Frenchies",
+                        "series": "Fancy Frenchies",
+                        "solMintAddress": "FoTW2hubCoeCUYczKE3bS5iAvEELp5HMoVURkYhc15Mk",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://www.arweave.net/Jrq7aQoTJuAek_b_2RN-JJvOdwnq9VQ8OaTEfRE07Pw?ext=png",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Background": "Red",
+                            "Fur": "Galaxy Fur",
+                            "Clothing": "Hawaiian",
+                            "Neck": "Bandana (Red)",
+                            "Head": "Galaxy Head",
+                            "Eyes": "Patch",
+                            "Head Wear": "Helmet",
+                            "Mouth": "Joint"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Red",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "Galaxy Fur",
+                                "trait_type": "Fur"
+                            },
+                            {
+                                "value": "Hawaiian",
+                                "trait_type": "Clothing"
+                            },
+                            {
+                                "value": "Bandana (Red)",
+                                "trait_type": "Neck"
+                            },
+                            {
+                                "value": "Galaxy Head",
+                                "trait_type": "Head"
+                            },
+                            {
+                                "value": "Patch",
+                                "trait_type": "Eyes"
+                            },
+                            {
+                                "value": "Helmet",
+                                "trait_type": "Head Wear"
+                            },
+                            {
+                                "value": "Joint",
+                                "trait_type": "Mouth"
+                            }
+                        ],
+                        "number": "9869",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-12-29T15:21:26.793728+00:00",
+                        "createdAt": "2021-12-29T15:21:26.793728+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": true,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": 0.8
+                    },
+                    "issuer": {
+                        "id": 12605,
+                        "time": "2021-12-30T04:52:17.032248+00:00",
+                        "status": "rejected",
+                        "issuer": "Fancy Frenchies",
+                        "isVerified": false,
+                        "mintSource": "sol",
+                        "createdAt": 1640839937.032248
+                    },
+                    "collectionDict": {
+                        "id": 421,
+                        "name": "Fancy Frenchies",
+                        "displayName": "Fancy Frenchies",
+                        "twitterUrl": "https://twitter.com/fancyfrenchnft",
+                        "discordUrl": "https://discord.gg/bGHkb6YagU",
+                        "homepageUrl": null,
+                        "description": "Every dog must have his day. Luxury never goes out of fashion. These are fancy frenchies.",
+                        "markdownDescription": null,
+                        "createdAt": 1635277718.350921,
+                        "featured": true,
+                        "position": 7,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/77287c85-d1eb-4aa7-ba03-edd4730b5f8a.jpeg",
+                        "bannerImageId": 47360,
+                        "cardImageUrl": "https://static.ftx.com/nfts/2454a9b5-1e64-4735-a8cc-0a972401e3cb.png",
+                        "cardImageId": 47359
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Worldwide Webb Land",
+                    "total": 13,
+                    "volume": 51980.8995791855,
+                    "first_nft": {
+                        "id": "298170918169492698",
+                        "name": "Small Apartment 3717",
+                        "description": "",
+                        "issuer": "Worldwide-webb",
+                        "collection": "Worldwide Webb Land",
+                        "series": "Small Apartment 3717",
+                        "solMintAddress": null,
+                        "ethContractAddress": "0xA1D4657e0E6507D5a94d06DA93E94dC7C8c44b51",
+                        "ethTokenId": "3717",
+                        "ethContractType": "erc721",
+                        "imageUrl": "https://lh3.googleusercontent.com/KfYh3rAmTt51ovq63neWe84oNJrMPiO0yPFoksw_ZAnO5HelcT4HZJUHp4RxjVdzdj6gU9vgU8AfuKwrMFXQBM3i6BwOe0x7qsz_Nw",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "type": "small apartment"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "small apartment",
+                                "trait_type": "type"
+                            }
+                        ],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2022-01-03T05:13:28.897975+00:00",
+                        "createdAt": "2022-01-03T05:13:28.897975+00:00",
+                        "quoteCurrency": "ETH",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "eth"
+                        ],
+                        "withdrawalMethods": [],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "eth",
+                        "minBidNotification": 0.605
+                    },
+                    "issuer": {
+                        "id": 12923,
+                        "time": "2022-01-03T00:13:30.773817+00:00",
+                        "status": "approved",
+                        "issuer": "Worldwide-webb",
+                        "isVerified": true,
+                        "mintSource": "eth",
+                        "createdAt": 1641168810.773817
+                    },
+                    "collectionDict": {
+                        "id": 10620,
+                        "name": "Worldwide Webb Land",
+                        "displayName": "Worldwide Webb Land",
+                        "twitterUrl": "https://twitter.com/Worldwide_WEB3",
+                        "discordUrl": "https://discord.gg/worldwidewebb",
+                        "homepageUrl": "https://webb.game",
+                        "description": "Worldwide Webb is an interoperable pixel art MMORPG metaverse game giving utility to popular NFT projects. The game uses NFTs for in-game avatars, pets, lands, items, and quests. Deployed with a build-first mentality by a group of crypto-native game developers, artists, coders, and marketers; rapidly pushing out new technologies and applications.",
+                        "markdownDescription": null,
+                        "createdAt": 1641168811.015429,
+                        "featured": true,
+                        "position": 21,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/7080c58a-bc52-4c06-8602-b0c3381341d1.jpeg",
+                        "avatarImageId": 32255,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/b8175b09-b33a-4f46-833d-c0d8c99db05f.jpeg",
+                        "bannerImageId": 32256
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Billboard Women in Music x World of Women Magazine Covers",
+                    "total": 3,
+                    "volume": 46228.0727482875,
+                    "first_nft": {
+                        "id": "413425215103119957",
+                        "name": "Mariah Carey",
+                        "description": "This exclusive NFT brought to you by Billboard and World of Women, and created by NFT artist Yam Karkai, commemorates the 2022 Billboard Women in Music event and Women’s History Month with the minting of this legendary cover star, Mariah Carey. In the ever-expanding marketplace, World of Women has established itself as the preeminent collective among fans, making it the top female-led collective in the NFT space. A portion of the proceeds from the auction will go to benefit The Fresh Air Fund. https://www.billboard.com/music/music-news/bb-wim-nft-terms-1235037876/",
+                        "issuer": "Billboard",
+                        "collection": "Billboard Women in Music x World of Women Magazine Covers",
+                        "series": "Mariah Carey",
+                        "solMintAddress": null,
+                        "ethContractAddress": "0x495f947276749Ce646f68AC8c248420045cb7b5e",
+                        "ethTokenId": "67542719040287310668888337779295873838291769529767137363423150837212330852353",
+                        "ethContractType": "erc1155",
+                        "imageUrl": "https://lh3.googleusercontent.com/2iWBmoXTwk1WC2G9udaxs527pGjd5XENSTY0HSotV0vZfRdu5LG9nfv6FoNJxCoJmBJOdNSCkq_NvP0HlQculPQIWZ3LGAHh3qKoMyc",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {},
+                        "attributesList": [],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2022-03-02T22:57:18.495344+00:00",
+                        "createdAt": "2022-03-02T22:57:18.495344+00:00",
+                        "quoteCurrency": "ETH",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "eth"
+                        ],
+                        "withdrawalMethods": [],
+                        "totalSellerFeeRate": 0.12,
+                        "royaltyFeeRate": 0.1,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": true,
+                        "mintSource": "eth",
+                        "minBidNotification": 10
+                    },
+                    "issuer": {
+                        "id": 18770,
+                        "time": "2022-02-25T16:43:07.783356+00:00",
+                        "status": "approved",
+                        "issuer": "Billboard",
+                        "isVerified": false,
+                        "mintSource": "ftx",
+                        "createdAt": 1645807387.783356
+                    },
+                    "collectionDict": {
+                        "id": 14756,
+                        "name": "Billboard Women in Music x World of Women Magazine Covers",
+                        "displayName": "Billboard Women in Music x World of Women Magazine Covers",
+                        "twitterUrl": "https://twitter.com/billboard",
+                        "discordUrl": null,
+                        "homepageUrl": "https://www.billboardwomeninmusic.com/",
+                        "description": "This exclusive collection of three NFTs brought to you by Billboard and World of Women, and created by NFT artist Yam Karkai, commemorates the 2022 Billboard Women in Music event and Women’s History Month with the minting of its three legendary cover stars, Christina Aguilera, Madonna and Mariah Carey. In the ever-expanding marketplace, World of Women, has established itself as the preeminent collective among fans, making it the top female-led collective in the NFT space. A portion of the proceeds from the auction will go to benefit a non-profit of each cover star’s choosing.",
+                        "markdownDescription": null,
+                        "createdAt": 1645807586.111379,
+                        "featured": true,
+                        "position": 7,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/2e06a3ac-452e-4520-88ef-906356d7416c.jpg",
+                        "avatarImageId": 48222,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/ab6aa338-f360-4c55-abd8-f1b5dd3bda8e.jpg",
+                        "bannerImageId": 49277,
+                        "cardImageUrl": "https://static.ftx.com/nfts/92c8e115-9437-4364-84ed-46e40da4538e.png",
+                        "cardImageId": 48972
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Creature World",
+                    "total": 15,
+                    "volume": 43175.5523890355,
+                    "first_nft": {
+                        "id": "312664094328940774",
+                        "name": "Creature #9945",
+                        "description": "Welcome to The Creature World. You have arrived in a nearby magical dimension of love, divine intervention, and possibility. 10,000 unique Creatures are here to guide you on this journey. Follow their lead. Created with love by NYC-based artist Danny Cole. www.creature.world.",
+                        "issuer": "Creature World",
+                        "collection": "Creature World",
+                        "series": "Creature",
+                        "solMintAddress": null,
+                        "ethContractAddress": "0xc92cedDfb8dd984A89fb494c376f9A48b999aAFc",
+                        "ethTokenId": "9945",
+                        "ethContractType": "erc721",
+                        "imageUrl": "https://lh3.googleusercontent.com/L92fNMbQcSc0CaB-pzx_oGZfwRH8lZlCY4Z68kY3Z4e55Mcq6Jyp3kkkq6WmTNvfZ31U6zdPZu96WBGVqxx-KTEHqe6bKXSuZPN-",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Mouth": "Happy",
+                            "Foreground": "Blush",
+                            "Eyes": "Sand",
+                            "Background": "Violet",
+                            "Decoration": "Ocean Stripes",
+                            "Creature": "Moss"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Happy",
+                                "trait_type": "Mouth"
+                            },
+                            {
+                                "value": "Blush",
+                                "trait_type": "Foreground"
+                            },
+                            {
+                                "value": "Sand",
+                                "trait_type": "Eyes"
+                            },
+                            {
+                                "value": "Violet",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "Ocean Stripes",
+                                "trait_type": "Decoration"
+                            },
+                            {
+                                "value": "Moss",
+                                "trait_type": "Creature"
+                            }
+                        ],
+                        "number": "9945",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": 1.41,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2022-01-28T19:50:11.712019+00:00",
+                        "createdAt": "2022-01-28T19:50:11.712019+00:00",
+                        "quoteCurrency": "ETH",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [],
+                        "withdrawalMethods": [],
+                        "totalSellerFeeRate": 0.09,
+                        "royaltyFeeRate": 0.07,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": true,
+                        "fungible": false,
+                        "mintSource": "eth",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 12931,
+                        "time": "2022-01-03T02:04:42.534631+00:00",
+                        "status": "approved",
+                        "issuer": "Creature World",
+                        "isVerified": true,
+                        "mintSource": "eth",
+                        "createdAt": 1641175482.534631
+                    },
+                    "collectionDict": {
+                        "id": 10627,
+                        "name": "Creature World",
+                        "displayName": "Creature World",
+                        "twitterUrl": "https://twitter.com/creatureNFT",
+                        "discordUrl": "https://discord.gg/creature",
+                        "homepageUrl": "https://creature.guide",
+                        "description": "Welcome to The Creature World. You have arrived in a nearby magical dimension of love, divine intervention, and possibility. 10,000 unique Creatures are here to guide you on this journey. Follow their lead. Created with love by NYC-based artist Danny Cole.",
+                        "markdownDescription": null,
+                        "createdAt": 1641175482.555912,
+                        "featured": true,
+                        "position": 18,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/a7cde93f-6b59-4028-832f-ce07700afd28.jpeg",
+                        "avatarImageId": 32253,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/8dba9862-b3b1-4ced-82da-e1833cd2e34c.jpeg",
+                        "bannerImageId": 32254
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "DeadFellaz",
+                    "total": 12,
+                    "volume": 40533.9482319905,
+                    "first_nft": {
+                        "id": "293710968132269384",
+                        "name": "DeadFellaz #2165",
+                        "description": "A collection of 10,000 undead NFTs minted on the Ethereum blockchain. Each unique Deadfella is randomly generated from a combination of over 400 individually drawn traits, including over 50 different outfits. Deadfellaz each have different eyes, noses, mouths, heads and bodies - with no traits explicitly gendered to allow all genders to find representation",
+                        "issuer": "DeadFellaz",
+                        "collection": "DeadFellaz",
+                        "series": "DeadFellaz",
+                        "solMintAddress": null,
+                        "ethContractAddress": "0x2acAb3DEa77832C09420663b0E1cB386031bA17B",
+                        "ethTokenId": "2165",
+                        "ethContractType": "erc721",
+                        "imageUrl": "https://lh3.googleusercontent.com/jhwWpMw_OZYzasHBYo3EVjfcrQO0cWHQZqkO7o2p-3vDacgvZsBu0V3LSnJdMqVdA2oGE1yUGQhWsm3XAy_o02t1cVjfi1tCL88wug",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Nose": "Nose Skull",
+                            "Nose Grade": "Rotten",
+                            "Eyes": "Lazy",
+                            "Eyes Grade": "Fresh",
+                            "Head Grade": "Damaged",
+                            "Background": "Pink",
+                            "Body Grade": "Fresh",
+                            "Mouth Grade": "Rotten",
+                            "Head": "Bantu Knot",
+                            "Mouth": "Surprised",
+                            "Body": "Blue Puffvest"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Nose Skull",
+                                "trait_type": "Nose"
+                            },
+                            {
+                                "value": "Rotten",
+                                "trait_type": "Nose Grade"
+                            },
+                            {
+                                "value": "Lazy",
+                                "trait_type": "Eyes"
+                            },
+                            {
+                                "value": "Fresh",
+                                "trait_type": "Eyes Grade"
+                            },
+                            {
+                                "value": "Damaged",
+                                "trait_type": "Head Grade"
+                            },
+                            {
+                                "value": "Pink",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "Fresh",
+                                "trait_type": "Body Grade"
+                            },
+                            {
+                                "value": "Rotten",
+                                "trait_type": "Mouth Grade"
+                            },
+                            {
+                                "value": "Bantu Knot",
+                                "trait_type": "Head"
+                            },
+                            {
+                                "value": "Surprised",
+                                "trait_type": "Mouth"
+                            },
+                            {
+                                "value": "Blue Puffvest",
+                                "trait_type": "Body"
+                            }
+                        ],
+                        "number": "2165",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2022-01-13T04:05:28.559341+00:00",
+                        "createdAt": "2022-01-13T04:05:28.559341+00:00",
+                        "quoteCurrency": "ETH",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "eth"
+                        ],
+                        "withdrawalMethods": [],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "eth",
+                        "minBidNotification": 0.865
+                    },
+                    "issuer": {
+                        "id": 6940,
+                        "time": "2021-12-01T07:08:57.165338+00:00",
+                        "status": "approved",
+                        "issuer": "DeadFellaz",
+                        "isVerified": true,
+                        "mintSource": "eth",
+                        "createdAt": 1638342537.165338
+                    },
+                    "collectionDict": {
+                        "id": 1949,
+                        "name": "DeadFellaz",
+                        "displayName": "DeadFellaz",
+                        "twitterUrl": "https://twitter.com/deadfellaznft",
+                        "discordUrl": "https://discord.com/invite/8acJn6VAJT",
+                        "homepageUrl": "https://www.deadfellaz.io/",
+                        "description": "10,000 undead NFTs on the Ethereum blockchain. Join the horde.",
+                        "markdownDescription": null,
+                        "createdAt": 1638343084.929506,
+                        "featured": true,
+                        "position": 29,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/378439320553686863.jpeg",
+                        "avatarImageId": 25220,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/573141510268647478.jpeg",
+                        "bannerImageId": 25221
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Astral Apes",
+                    "total": 393,
+                    "volume": 40274.9688805555,
+                    "first_nft": {
+                        "id": "289451269147392897",
+                        "name": "Astral Apes #3035",
+                        "description": "Astral Apes NFT collection",
+                        "issuer": "Astral Apes",
+                        "collection": "Astral Apes",
+                        "series": "Astral Apes",
+                        "solMintAddress": "5r18rhHkhe25feWbk1qVuBGyW4pBqikZ285LbUJgXczC",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://www.arweave.net/LxitJJDkdumFXGZl1aAM71a6rjsDDKIseB4A5n-Hoi8?ext=png",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Accessory": "Headphone",
+                            "Background": "Pink",
+                            "Eyewear": "None",
+                            "Helmet": "Sticker Bomb",
+                            "Mouth": "Lollipop",
+                            "Skin": "Black",
+                            "Teeth": "White",
+                            "Top": "Orange"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Headphone",
+                                "trait_type": "Accessory"
+                            },
+                            {
+                                "value": "Pink",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "None",
+                                "trait_type": "Eyewear"
+                            },
+                            {
+                                "value": "Sticker Bomb",
+                                "trait_type": "Helmet"
+                            },
+                            {
+                                "value": "Lollipop",
+                                "trait_type": "Mouth"
+                            },
+                            {
+                                "value": "Black",
+                                "trait_type": "Skin"
+                            },
+                            {
+                                "value": "White",
+                                "trait_type": "Teeth"
+                            },
+                            {
+                                "value": "Orange",
+                                "trait_type": "Top"
+                            }
+                        ],
+                        "number": "3035",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": 9.87,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2022-02-04T17:15:38.544159+00:00",
+                        "createdAt": "2022-02-04T17:15:38.544159+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.12,
+                        "royaltyFeeRate": 0.1,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": true,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": 0.695
+                    },
+                    "issuer": {
+                        "id": 8999,
+                        "time": "2021-12-15T19:19:16.031082+00:00",
+                        "status": "approved",
+                        "issuer": "Astral Apes",
+                        "isVerified": true,
+                        "mintSource": "sol",
+                        "createdAt": 1639595956.031082
+                    },
+                    "collectionDict": {
+                        "id": 6862,
+                        "name": "Astral Apes",
+                        "displayName": "Astral Apes",
+                        "twitterUrl": "https://twitter.com/ASTRALAPES",
+                        "discordUrl": "https://discord.gg/astralapes",
+                        "homepageUrl": "https://astralbabyapeclub.com",
+                        "description": "Astral Apes is a collection of 3,333 high-quality uniquely generated 3D Apes roaming the Solana space. Join us in earning rewards like unique 3D houses for your Apes and 1:100 token airdrops. The Astral Jungle is scheduled to be released early 2022 with an NFT airdrop for holders to follow.",
+                        "markdownDescription": null,
+                        "createdAt": 1639595956.132672,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/469159679645149535.png",
+                        "avatarImageId": 28130,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/419137747220757940.png",
+                        "bannerImageId": 28131,
+                        "cardImageUrl": "https://static.ftx.com/nfts/360707939693225530.png",
+                        "cardImageId": 28132
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Pesky Penguins",
+                    "total": 152,
+                    "volume": 40092.8359657,
+                    "first_nft": {
+                        "id": "288492842506507284",
+                        "name": "Pesky Penguins #6870",
+                        "description": "Pesky Penguins is a fun-loving flock of feathered friends who live on an iceberg in the metaverse.",
+                        "issuer": "NFK",
+                        "collection": "Pesky Penguins",
+                        "series": "Pesky Penguins",
+                        "solMintAddress": "9gNk43KXM7EGz4b92F95XArLiZNhJn1T1QYKHDKrkvQE",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://www.arweave.net/7zgq_V8WSv9UBDoH5ZbgdtnkRPct1xIx4bbtmYL82bc?ext=png",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Background": "Greyteal",
+                            "Type": "Blue",
+                            "Head": "None",
+                            "Accessories": "None",
+                            "Eyes": "Eye Patch",
+                            "Body": "Life Saving Tube",
+                            "Beak": "None",
+                            "DNA": "2b7fa6aca008f1bed815eadfcf3ae3bfa6928b0e"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Greyteal",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "Blue",
+                                "trait_type": "Type"
+                            },
+                            {
+                                "value": "None",
+                                "trait_type": "Head"
+                            },
+                            {
+                                "value": "None",
+                                "trait_type": "Accessories"
+                            },
+                            {
+                                "value": "Eye Patch",
+                                "trait_type": "Eyes"
+                            },
+                            {
+                                "value": "Life Saving Tube",
+                                "trait_type": "Body"
+                            },
+                            {
+                                "value": "None",
+                                "trait_type": "Beak"
+                            },
+                            {
+                                "value": "2b7fa6aca008f1bed815eadfcf3ae3bfa6928b0e",
+                                "trait_type": "DNA"
+                            }
+                        ],
+                        "number": "6870",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-11-13T17:55:27.528170+00:00",
+                        "createdAt": "2021-11-13T17:55:27.528170+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "sol"
+                        ],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 14793,
+                        "time": "2022-01-24T03:24:48.263085+00:00",
+                        "status": "approved",
+                        "issuer": "NFK",
+                        "isVerified": true,
+                        "mintSource": "sol",
+                        "createdAt": 1642994688.263085
+                    },
+                    "collectionDict": {
+                        "id": 442,
+                        "name": "Pesky Penguins",
+                        "displayName": "Pesky Penguins",
+                        "twitterUrl": "https://twitter.com/peskypenguins",
+                        "discordUrl": "https://discord.gg/peskypenguins",
+                        "homepageUrl": "https://pesky-penguins.com/",
+                        "description": "Pesky Penguins is a fun, deflationary collection of pixel penguins on the Solana blockchain -- NOOT NOOT!",
+                        "markdownDescription": null,
+                        "createdAt": 1635277718.761493,
+                        "featured": true,
+                        "position": 5,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/e7706455-c1b8-4b2b-9054-17528512087e.png",
+                        "avatarImageId": 38771,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/dbf3b1bd-8af2-4ce6-8ead-601a6135b270.png",
+                        "bannerImageId": 38773,
+                        "cardImageUrl": "https://static.ftx.com/nfts/3d7092b7-a6d9-439a-96cf-61c0b1230cf4.png",
+                        "cardImageId": 38774
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Solagon",
+                    "total": 1450,
+                    "volume": 39590.7226533455,
+                    "first_nft": {
+                        "id": "288351920303147224",
+                        "name": "7295",
+                        "description": "Solagon IO",
+                        "issuer": "Solagon",
+                        "collection": "Solagon",
+                        "series": null,
+                        "solMintAddress": "FPV8bQyj96p8PvgZiYYesTCpJk1M1ixrnfkF5FudmiKv",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://www.arweave.net/5qfv2MwLpx6_rrcml787lgCzeKh4dzy6PZtbVDCwWQM?ext=png",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": "https://static.ftx.com/nfts/600t535263708088538806.PNG",
+                        "attributes": {
+                            "egg": "grey_stone_egg",
+                            "background": "blue_background",
+                            "accessories": "ninja_sword",
+                            "skin": "blue_dragon",
+                            "headwear": "wizard_hat",
+                            "eyewear": "empty_eyewear",
+                            "eye": "dollar_eyes"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "grey_stone_egg",
+                                "trait_type": "egg"
+                            },
+                            {
+                                "value": "blue_background",
+                                "trait_type": "background"
+                            },
+                            {
+                                "value": "ninja_sword",
+                                "trait_type": "accessories"
+                            },
+                            {
+                                "value": "blue_dragon",
+                                "trait_type": "skin"
+                            },
+                            {
+                                "value": "wizard_hat",
+                                "trait_type": "headwear"
+                            },
+                            {
+                                "value": "empty_eyewear",
+                                "trait_type": "eyewear"
+                            },
+                            {
+                                "value": "dollar_eyes",
+                                "trait_type": "eye"
+                            }
+                        ],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-10-11T19:46:11.685384+00:00",
+                        "createdAt": "2021-10-11T19:46:11.685384+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": true,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 418,
+                        "time": "2021-10-10T19:06:05.654941+00:00",
+                        "status": "approved",
+                        "issuer": "Solagon",
+                        "isVerified": true,
+                        "mintSource": "sol",
+                        "createdAt": 1633892765.654941
+                    },
+                    "collectionDict": {
+                        "id": 451,
+                        "name": "Solagon",
+                        "displayName": "Solagon",
+                        "twitterUrl": "https://twitter.com/solagonNFT",
+                        "discordUrl": "https://discord.gg/solagon",
+                        "homepageUrl": "https://solagon.io",
+                        "description": "Solagon is a collection of algorithmically generated cute baby dragon NFTs living on the #Solana blockchain. The collection consists of 7,777 randomly selected baby Solagons from over 500k total possibilities. Solagons have a variety of eggs, skins, hats, eyes, mouths, accessories, backgrounds, and colors. Each one is beautifully designed, specifically picked, and faultlessly shaped.",
+                        "markdownDescription": null,
+                        "createdAt": 1635277718.925879,
+                        "featured": true,
+                        "position": 24,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/43c399d9-93b3-4db7-9f86-022db390913e.png",
+                        "avatarImageId": 34312,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/6c9b359b-db10-415a-b1e9-db0bf6503062.png",
+                        "bannerImageId": 34322,
+                        "cardImageUrl": "https://static.ftx.com/nfts/9d14c291-e87e-4417-932d-ab91030da2af.png",
+                        "cardImageId": 34325
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Thugbirdz",
+                    "total": 91,
+                    "volume": 39112.7485315,
+                    "first_nft": {
+                        "id": "290819278534637565",
+                        "name": "THUG #3091",
+                        "description": "You hold in your possession an OG thugbird. It was created with love for the Solana community by 0x_thug",
+                        "issuer": "Thugbirdz",
+                        "collection": "Thugbirdz",
+                        "series": null,
+                        "solMintAddress": "AVmQ7GmD9wCVzM8mACyekaSw57huDNUtwwowg7zZN9na",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://arweave.net/pB8zNJenlPS83C-bKnHUgqMpu-tKpZcahN9jYuoA9Oo",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Type": "normal",
+                            "Background Color": "khaki",
+                            "Head Color": "silver",
+                            "Neck Color": "darkkhaki",
+                            "Shades": "standard",
+                            "Chain": "none",
+                            "Face Tattoo": "none",
+                            "Ear-ring": "silver",
+                            "Beak Color": "darkslategray",
+                            "Smoking": "none",
+                            "Position in gang": "thug",
+                            "Favourite rapper": "biggie",
+                            "Head accessories": "forwards cap"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "normal",
+                                "trait_type": "Type"
+                            },
+                            {
+                                "value": "khaki",
+                                "trait_type": "Background Color"
+                            },
+                            {
+                                "value": "silver",
+                                "trait_type": "Head Color"
+                            },
+                            {
+                                "value": "darkkhaki",
+                                "trait_type": "Neck Color"
+                            },
+                            {
+                                "value": "standard",
+                                "trait_type": "Shades"
+                            },
+                            {
+                                "value": "none",
+                                "trait_type": "Chain"
+                            },
+                            {
+                                "value": "none",
+                                "trait_type": "Face Tattoo"
+                            },
+                            {
+                                "value": "silver",
+                                "trait_type": "Ear-ring"
+                            },
+                            {
+                                "value": "darkslategray",
+                                "trait_type": "Beak Color"
+                            },
+                            {
+                                "value": "none",
+                                "trait_type": "Smoking"
+                            },
+                            {
+                                "value": "thug",
+                                "trait_type": "Position in gang"
+                            },
+                            {
+                                "value": "biggie",
+                                "trait_type": "Favourite rapper"
+                            },
+                            {
+                                "value": "forwards cap",
+                                "trait_type": "Head accessories"
+                            }
+                        ],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-10-11T18:36:11.775411+00:00",
+                        "createdAt": "2021-10-11T18:36:11.775411+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "sol"
+                        ],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 431,
+                        "time": "2021-10-10T19:06:05.962549+00:00",
+                        "status": "approved",
+                        "issuer": "Thugbirdz",
+                        "isVerified": true,
+                        "mintSource": "sol",
+                        "createdAt": 1633892765.962549
+                    },
+                    "collectionDict": {
+                        "id": 120,
+                        "name": "Thugbirdz",
+                        "displayName": "Thugbirdz",
+                        "twitterUrl": "https://twitter.com/thugbirdz",
+                        "discordUrl": "https://discord.gg/thugdao",
+                        "homepageUrl": "https://www.thugbirdz.com/",
+                        "description": "A collection of 3,333 uniquely generated, tough and collectible thugbirdz.",
+                        "markdownDescription": null,
+                        "createdAt": 1634571497.00809,
+                        "featured": true,
+                        "position": 14,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/429107475798125920.jpeg",
+                        "bannerImageId": 5113
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Tungsten Cube NFT",
+                    "total": 38,
+                    "volume": 37133.516407435,
+                    "first_nft": {
+                        "id": "288578031037323880",
+                        "name": "Tungsten Cube 23",
+                        "description": "Redeem for real cube or trade? All royalties donated to crypto advocacy groups. 500 cubes, 4 glorious sizes.",
+                        "issuer": "Tungsten Cube NFT",
+                        "collection": "Tungsten Cube NFT",
+                        "series": "Tungsten Cube 23",
+                        "solMintAddress": "AGTTNx56gtUakgEFRa8k8KGPEvp5jK89ZAcYNFK1CCZv",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://ha6qpasmdep3xfkgbl4fjufrq6xpxk7idri524p6poqwdrrd33ra.arweave.net/OD0HgkwZH7uVRgr4VNCxh677q-gcUd1x_nuhYcYj3uI",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": "https://ha6qpasmdep3xfkgbl4fjufrq6xpxk7idri524p6poqwdrrd33ra.arweave.net/OD0HgkwZH7uVRgr4VNCxh677q-gcUd1x_nuhYcYj3uI",
+                        "attributes": {
+                            "Size": "1 inch",
+                            "Weight": "0.66 lbs",
+                            "Density": "19.3 g/cm³"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "1 inch",
+                                "trait_type": "Size"
+                            },
+                            {
+                                "value": "0.66 lbs",
+                                "trait_type": "Weight"
+                            },
+                            {
+                                "value": "19.3 g/cm³",
+                                "trait_type": "Density"
+                            }
+                        ],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-10-27T03:28:25.337986+00:00",
+                        "createdAt": "2021-10-27T03:28:25.337986+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "sol"
+                        ],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.1169,
+                        "royaltyFeeRate": 0.0969,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": false,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 1852,
+                        "time": "2021-10-21T17:35:34.379813+00:00",
+                        "status": "approved",
+                        "issuer": "Tungsten Cube NFT",
+                        "isVerified": true,
+                        "mintSource": "sol",
+                        "createdAt": 1634837734.379813
+                    },
+                    "collectionDict": {
+                        "id": 245,
+                        "name": "Tungsten Cube NFT",
+                        "displayName": "Tungsten Cube NFT",
+                        "twitterUrl": "https://twitter.com/tungstencubenft",
+                        "discordUrl": "https://discord.gg/prJTJ8fjGn",
+                        "homepageUrl": "https://tungstencube.com",
+                        "description": "Tungsten Cube NFT. Redeem for real cube or trade? 100% of royalties donated to crypto advocacy groups. 500 cubes, 4 glorious sizes.",
+                        "markdownDescription": null,
+                        "createdAt": 1634866806.39805,
+                        "featured": true,
+                        "position": 1,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/388e2bc6-9aa1-4d88-b16a-7a5047860861.jpg",
+                        "avatarImageId": 47361,
+                        "cardImageUrl": "https://static.ftx.com/nfts/7b1b7e6e-1264-44f2-92a1-f0cfd632aaff.png",
+                        "cardImageId": 50248
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Parallel Alpha",
+                    "total": 702,
+                    "volume": 36914.95053683885,
+                    "first_nft": {
+                        "id": "288396355790566249",
+                        "name": "Scanner Array [SE]",
+                        "description": "Long before you see us, we will know you are coming.",
+                        "issuer": "Parallel Alpha",
+                        "collection": "Parallel Alpha",
+                        "series": "Scanner Array [SE]",
+                        "solMintAddress": null,
+                        "ethContractAddress": "0x76BE3b62873462d2142405439777e971754E8E77",
+                        "ethTokenId": "10370",
+                        "ethContractType": "erc1155",
+                        "imageUrl": "https://lh3.googleusercontent.com/oMIQfmXD9E_-V5rXmH3DPpnPP_aDf7zRjIdTWp1vscVcfU8UR38BcmFf74zx8sDtOdAeFhXlpcGie_cmsk62bC0k082tBLDHmJrFfQ",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Parallel": "Augencore",
+                            "Class": "SE",
+                            "Rarity": "Common",
+                            "State": "Mars"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Augencore",
+                                "trait_type": "Parallel"
+                            },
+                            {
+                                "value": "SE",
+                                "trait_type": "Class"
+                            },
+                            {
+                                "value": "Common",
+                                "trait_type": "Rarity"
+                            },
+                            {
+                                "value": "Mars",
+                                "trait_type": "State"
+                            }
+                        ],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-12-09T20:27:13.967671+00:00",
+                        "createdAt": "2021-12-09T20:27:13.967671+00:00",
+                        "quoteCurrency": "ETH",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "eth"
+                        ],
+                        "withdrawalMethods": [],
+                        "totalSellerFeeRate": 0.12,
+                        "royaltyFeeRate": 0.1,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": true,
+                        "mintSource": "eth",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 8571,
+                        "time": "2021-12-09T17:37:34.376513+00:00",
+                        "status": "approved",
+                        "issuer": "Parallel Alpha",
+                        "isVerified": true,
+                        "mintSource": "eth",
+                        "createdAt": 1639071454.376513
+                    },
+                    "collectionDict": {
+                        "id": 14848,
+                        "name": "Parallel Alpha",
+                        "displayName": "Parallel Alpha",
+                        "twitterUrl": "https://twitter.com/ParallelNFT",
+                        "discordUrl": "https://discord.gg/parallelalpha",
+                        "homepageUrl": "https://parallel.life/",
+                        "description": "Sci-fi collectable card game with NFTs.",
+                        "markdownDescription": null,
+                        "createdAt": 1645957170.726618,
+                        "featured": true,
+                        "position": 0,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/57449775-6e1c-4075-aed8-449ac75ba37e.png",
+                        "avatarImageId": 48541,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/16e0ae71-8f16-4919-9b4b-0c746baffb69.jpeg",
+                        "bannerImageId": 48543,
+                        "cardImageUrl": "https://static.ftx.com/nfts/5facfa51-0fdc-4c11-abce-791716b5aa82.gif",
+                        "cardImageId": 49014
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Little Lemon Friends",
+                    "total": 35,
+                    "volume": 36747.648940226,
+                    "first_nft": {
+                        "id": "307087795667644957",
+                        "name": "Little Lemon #2913",
+                        "description": "9,999 Little lemons that fell from the giant lemon tree 🍋🌳 Each lemon finding their own little adventures in this big big world!",
+                        "issuer": "Little Lemon Friends",
+                        "collection": "Little Lemon Friends",
+                        "series": "Little Lemon",
+                        "solMintAddress": null,
+                        "ethContractAddress": "0x0B22fE0a2995C5389AC093400e52471DCa8BB48a",
+                        "ethTokenId": "2913",
+                        "ethContractType": "erc721",
+                        "imageUrl": "https://lh3.googleusercontent.com/wDf_ndAiiOB7hGJAn83tUn8I-tWnIKhlZLGZ3p8gohocOX1d_4p70U8T5Y3xc_8dX_7FUX1q1VDTukDE_D6ghaAiuaTZHiBHnsfo",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Body": "Lemon Lemon",
+                            "Face": "Woke",
+                            "Background": "Purple",
+                            "Hat": "Sailor Hat",
+                            "Clothing": "Construction Vest"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Lemon Lemon",
+                                "trait_type": "Body"
+                            },
+                            {
+                                "value": "Woke",
+                                "trait_type": "Face"
+                            },
+                            {
+                                "value": "Purple",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "Sailor Hat",
+                                "trait_type": "Hat"
+                            },
+                            {
+                                "value": "Construction Vest",
+                                "trait_type": "Clothing"
+                            }
+                        ],
+                        "number": "2913",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2022-01-03T04:56:50.544497+00:00",
+                        "createdAt": "2022-01-03T04:56:50.544497+00:00",
+                        "quoteCurrency": "ETH",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "eth"
+                        ],
+                        "withdrawalMethods": [],
+                        "totalSellerFeeRate": 0.045,
+                        "royaltyFeeRate": 0.025,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "eth",
+                        "minBidNotification": 0.16
+                    },
+                    "issuer": {
+                        "id": 12934,
+                        "time": "2022-01-03T02:07:54.650485+00:00",
+                        "status": "approved",
+                        "issuer": "Little Lemon Friends",
+                        "isVerified": true,
+                        "mintSource": "eth",
+                        "createdAt": 1641175674.650485
+                    },
+                    "collectionDict": {
+                        "id": 10630,
+                        "name": "Little Lemon Friends",
+                        "displayName": "Little Lemon Friends",
+                        "twitterUrl": "https://twitter.com/littlelemonsnft",
+                        "discordUrl": "https://discord.gg/yWC7Y97Gpc",
+                        "homepageUrl": "https://www.littlelemonfriendsnft.com/",
+                        "description": "9,999 Little lemons that fell from the giant lemon tree, each lemon finding their own little adventures in this big big world! 🍋🌳",
+                        "markdownDescription": null,
+                        "createdAt": 1641175674.676622,
+                        "featured": true,
+                        "position": 2,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/4c4df37e-f2d8-4a54-aaa5-75add6efb158.png",
+                        "avatarImageId": 32247,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/a8af1a9e-639c-4bd8-99c8-6366829ffe6a.jpeg",
+                        "bannerImageId": 32244
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Solsteads Surreal Estate",
+                    "total": 64,
+                    "volume": 36680.595102,
+                    "first_nft": {
+                        "id": "300433548452476676",
+                        "name": "313 Bit Boulevard",
+                        "description": "A Solstead: Your very own piece of surreal estate.",
+                        "issuer": "Solsteads Surreal Estate",
+                        "collection": "Solsteads Surreal Estate",
+                        "series": null,
+                        "solMintAddress": "Hqaw5Y1pK8F8DxZBAPGLmPcvxZyunFFxnrjBTogHNFCu",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://www.arweave.net/RJoAtIDrdGFvF6nlWKhyTy6trUJoo7g-rG3_ctozBFU?ext=png",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": "https://static.ftx.com/nfts/600t471478565523460633.PNG",
+                        "attributes": {
+                            "Biome": "Volcanic",
+                            "Sky": "Day",
+                            "House style": "Modern",
+                            "House color": "Yellow",
+                            "Openings style": "Shuttered",
+                            "Openings color": "Green",
+                            "Roof style": "Patio",
+                            "Roof color": "Green",
+                            "Street name": "Bit Boulevard",
+                            "House number": 313
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Volcanic",
+                                "trait_type": "Biome"
+                            },
+                            {
+                                "value": "Day",
+                                "trait_type": "Sky"
+                            },
+                            {
+                                "value": "Modern",
+                                "trait_type": "House style"
+                            },
+                            {
+                                "value": "Yellow",
+                                "trait_type": "House color"
+                            },
+                            {
+                                "value": "Shuttered",
+                                "trait_type": "Openings style"
+                            },
+                            {
+                                "value": "Green",
+                                "trait_type": "Openings color"
+                            },
+                            {
+                                "value": "Patio",
+                                "trait_type": "Roof style"
+                            },
+                            {
+                                "value": "Green",
+                                "trait_type": "Roof color"
+                            },
+                            {
+                                "value": "Bit Boulevard",
+                                "trait_type": "Street name"
+                            },
+                            {
+                                "value": 313,
+                                "trait_type": "House number"
+                            }
+                        ],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-10-11T18:07:07.069286+00:00",
+                        "createdAt": "2021-10-11T18:07:07.069286+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "sol"
+                        ],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 428,
+                        "time": "2021-10-10T19:06:05.900896+00:00",
+                        "status": "approved",
+                        "issuer": "Solsteads Surreal Estate",
+                        "isVerified": true,
+                        "mintSource": "sol",
+                        "createdAt": 1633892765.900896
+                    },
+                    "collectionDict": {
+                        "id": 121,
+                        "name": "Solsteads Surreal Estate",
+                        "displayName": "Solsteads Surreal Estate",
+                        "twitterUrl": "https://twitter.com/SolsteadsNFT",
+                        "discordUrl": "https://discord.gg/2MXFGd5Ndm",
+                        "homepageUrl": "https://solsteads.com/",
+                        "description": "Solana's first surreal estate collection of 2472 homes.",
+                        "markdownDescription": null,
+                        "createdAt": 1634571766.373864,
+                        "featured": true,
+                        "position": 6,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/407858776103243602.jpeg",
+                        "bannerImageId": 5505
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Solana Monkey Business",
+                    "total": 74,
+                    "volume": 35573.543908,
+                    "first_nft": {
+                        "id": "18781",
+                        "name": "SMB #2573",
+                        "description": "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+                        "issuer": "Solana Monkey Business (minted on ftx)",
+                        "collection": "Solana Monkey Business",
+                        "series": null,
+                        "solMintAddress": "4QSpcwjNL7R4SfHm8YJVH5Q4k2arnRufjxUkT3tbaWa5",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://arweave.net/LuKcUHXxOydQ9iLdfhgnsA61fqYxFh_xZdF7QSXb8PI",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Attributes Count": 2,
+                            "Type": "Brown",
+                            "Clothes": "Blue Shirt",
+                            "Ears": "None",
+                            "Mouth": "None",
+                            "Eyes": "None",
+                            "Hat": "Cop Hat"
+                        },
+                        "attributesList": [
+                            {
+                                "value": 2,
+                                "trait_type": "Attributes Count"
+                            },
+                            {
+                                "value": "Brown",
+                                "trait_type": "Type"
+                            },
+                            {
+                                "value": "Blue Shirt",
+                                "trait_type": "Clothes"
+                            },
+                            {
+                                "value": "None",
+                                "trait_type": "Ears"
+                            },
+                            {
+                                "value": "None",
+                                "trait_type": "Mouth"
+                            },
+                            {
+                                "value": "None",
+                                "trait_type": "Eyes"
+                            },
+                            {
+                                "value": "Cop Hat",
+                                "trait_type": "Hat"
+                            }
+                        ],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2022-01-25T06:13:18.797378+00:00",
+                        "createdAt": "2022-01-25T06:13:18.797378+00:00",
+                        "quoteCurrency": "USD",
+                        "auction": null,
+                        "minNextBid": 1,
+                        "depositMethods": [
+                            "sol"
+                        ],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "ftx",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 17536,
+                        "time": "2022-02-10T01:27:06.845330+00:00",
+                        "status": "approved",
+                        "issuer": "Solana Monkey Business (minted on ftx)",
+                        "isVerified": false,
+                        "mintSource": "ftx",
+                        "createdAt": 1644456426.84533
+                    },
+                    "collectionDict": {
+                        "id": 119,
+                        "name": "Solana Monkey Business",
+                        "displayName": "Solana Monkey Business",
+                        "twitterUrl": "https://twitter.com/SolanaMBS",
+                        "discordUrl": "https://discord.gg/solanamonkey",
+                        "homepageUrl": "https://solanamonkey.business/",
+                        "description": "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+                        "markdownDescription": null,
+                        "createdAt": 1634570611.56277,
+                        "featured": true,
+                        "position": 20,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/327943120211211172.png",
+                        "avatarImageId": 5109,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/313884822055425657.png",
+                        "bannerImageId": 5146,
+                        "cardImageUrl": "https://static.ftx.com/nfts/526465829565064846.png",
+                        "cardImageId": 5144
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Endstate",
+                    "total": 141,
+                    "volume": 34593.4564738,
+                    "first_nft": {
+                        "id": "288497878184319208",
+                        "name": "00:Predawn Army",
+                        "description": "Endstate creates sneakers backed by NFTs, meaning we make both physical shoes and a digital twin. Drop 0 is the first product release for Endstate, consisting of 115 pairs of the 00:Predawn silhouette.\n\nDigital:\n-3D rendering of the sneaker\n-AI-generated digital artwork environment\n-First two digital integrations free\n\nPhysical:\n-One pair of sneakers in your size\n-Digitally knitted upper\n-Military-grade polyurethane midsole\n-Solid rubber outsole\n-Premium insole\n-Upper and sole made and assembled in USA with imported materials\n\nExperiential:\n-Exclusive access to The State Department channel on Endstate’s Discord\n-Sneak peeks and input on future designs and collaborations\n\nPhysical sneakers must be redeemed only at endstate.io. Subject to company’s terms of sale.",
+                        "issuer": "Endstate ",
+                        "collection": "Endstate",
+                        "series": "00:Predawn Army",
+                        "solMintAddress": "46ckHBnSPAqKgBGPaqnrtyWCyXPKDjvSk5nxoeQKoM92",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://www.arweave.net/YDjoTAPpmFlaXTS9StIwOaCAQnCn8aIw6wuyovrPKKE?ext=gif",
+                        "videoUrl": null,
+                        "animationUrl": "https://arweave.net/p_x2UJ4LSgA4D2hvkeRN0NXG-WB1MiSUbIPv20hwX4c",
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Release": "Drop 0",
+                            "Silhouette": "00:Predawn",
+                            "Designer": "Stephanie Howard",
+                            "Collaborator": "None",
+                            "Primary Color": "Army",
+                            "Secondary Color": "Ivory",
+                            "Made In": "USA with imported materials",
+                            "Lace Color": "Army",
+                            "Environment Design": "Genesis: digital to physical",
+                            "Motif": "Asymmetrical",
+                            "Lace Location": "Off-center",
+                            "Design Pattern": "Topographical Map",
+                            "Design Style": "Bitmap",
+                            "Midsole Color": "Ivory",
+                            "Outsole Color": "Black",
+                            "Heel Tab Pattern": "Mango Trident",
+                            "Logo Color": "Mango",
+                            "Heel Tab Color": "Army",
+                            "Lace Pop Color": "Black",
+                            "Upper": "Knit",
+                            "Sole": "Polyurethane"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Drop 0",
+                                "trait_type": "Release"
+                            },
+                            {
+                                "value": "00:Predawn",
+                                "trait_type": "Silhouette"
+                            },
+                            {
+                                "value": "Stephanie Howard",
+                                "trait_type": "Designer"
+                            },
+                            {
+                                "value": "None",
+                                "trait_type": "Collaborator"
+                            },
+                            {
+                                "value": "Army",
+                                "trait_type": "Primary Color"
+                            },
+                            {
+                                "value": "Ivory",
+                                "trait_type": "Secondary Color"
+                            },
+                            {
+                                "value": "USA with imported materials",
+                                "trait_type": "Made In"
+                            },
+                            {
+                                "value": "Army",
+                                "trait_type": "Lace Color"
+                            },
+                            {
+                                "value": "Genesis: digital to physical",
+                                "trait_type": "Environment Design"
+                            },
+                            {
+                                "value": "Asymmetrical",
+                                "trait_type": "Motif"
+                            },
+                            {
+                                "value": "Off-center",
+                                "trait_type": "Lace Location"
+                            },
+                            {
+                                "value": "Topographical Map",
+                                "trait_type": "Design Pattern"
+                            },
+                            {
+                                "value": "Bitmap",
+                                "trait_type": "Design Style"
+                            },
+                            {
+                                "value": "Ivory",
+                                "trait_type": "Midsole Color"
+                            },
+                            {
+                                "value": "Black",
+                                "trait_type": "Outsole Color"
+                            },
+                            {
+                                "value": "Mango Trident",
+                                "trait_type": "Heel Tab Pattern"
+                            },
+                            {
+                                "value": "Mango",
+                                "trait_type": "Logo Color"
+                            },
+                            {
+                                "value": "Army",
+                                "trait_type": "Heel Tab Color"
+                            },
+                            {
+                                "value": "Black",
+                                "trait_type": "Lace Pop Color"
+                            },
+                            {
+                                "value": "Knit",
+                                "trait_type": "Upper"
+                            },
+                            {
+                                "value": "Polyurethane",
+                                "trait_type": "Sole"
+                            }
+                        ],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-11-11T15:41:07.096129+00:00",
+                        "createdAt": "2021-11-11T15:41:07.096129+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": true,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 2094,
+                        "time": "2021-10-28T21:54:04.623981+00:00",
+                        "status": "approved",
+                        "issuer": "Endstate ",
+                        "isVerified": true,
+                        "mintSource": "sol",
+                        "createdAt": 1635458044.623981
+                    },
+                    "collectionDict": {
+                        "id": 570,
+                        "name": "Endstate",
+                        "displayName": "Endstate",
+                        "twitterUrl": "https://twitter.com/endstate",
+                        "discordUrl": "https://discord.gg/2bHG8uukxV",
+                        "homepageUrl": "https://www.endstate.io/",
+                        "description": "Endstate creates sneakers backed by NFTs, meaning we make both physical shoes and a digital twin. Drop 0 is the first product release for Endstate, consisting of 115 pairs of the 00:Predawn silhouette. Physical sneakers redeemable at endstate.io",
+                        "markdownDescription": null,
+                        "createdAt": 1635458044.645607,
+                        "featured": true,
+                        "position": 4,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/398358884581936065.png",
+                        "avatarImageId": 18948,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/570728673703226414.png",
+                        "bannerImageId": 18950
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "FTX US Special",
+                    "total": 5,
+                    "volume": 34000.01,
+                    "first_nft": {
+                        "id": "347539041203728556",
+                        "name": "SBF Lunch #1",
+                        "description": "Redeem to set up an in-person lunch or 30-minute Zoom call with Sam Bankman-Fried.",
+                        "issuer": "FTX US",
+                        "collection": "FTX US Special",
+                        "series": "SBF Lunch",
+                        "solMintAddress": "29EJHyMKMJBbG5v3PG1kNT23oM1CVspPLu5TdkruoXE2",
+                        "ethContractAddress": "0x8C6DA8E36DB108595985C13b11db06a80324f314",
+                        "ethTokenId": "347539041203728556",
+                        "ethContractType": "erc721",
+                        "imageUrl": "https://static.ftx.com/sbf_lunch.jpg",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {},
+                        "attributesList": [],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": true,
+                        "redeemed": false,
+                        "offerPrice": 500000,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-05-24T20:45:23.235274+00:00",
+                        "createdAt": "2021-05-24T20:45:23.235274+00:00",
+                        "quoteCurrency": "USD",
+                        "auction": null,
+                        "minNextBid": 1,
+                        "depositMethods": [],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.02,
+                        "royaltyFeeRate": 0,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": true,
+                        "fungible": false,
+                        "mintSource": "ftx",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 8765,
+                        "time": "2021-12-12T06:32:32.270856+00:00",
+                        "status": "approved",
+                        "issuer": "FTX US",
+                        "isVerified": false,
+                        "mintSource": "ftx",
+                        "createdAt": 1639290752.270856
+                    },
+                    "collectionDict": {
+                        "id": 6518,
+                        "name": "FTX US Special",
+                        "displayName": "FTX US Special",
+                        "twitterUrl": null,
+                        "discordUrl": null,
+                        "homepageUrl": null,
+                        "description": null,
+                        "markdownDescription": null,
+                        "createdAt": 1639290752.270856
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "ApexDucks",
+                    "total": 815,
+                    "volume": 32151.6775300945,
+                    "first_nft": {
+                        "id": "288401712505735277",
+                        "name": "ApexDucks #1760",
+                        "description": "Combining attitude, disdain and superiority, the ApexDucks are here to cause trouble and have some wild adventures. Authorities? Pffft, who needs 'em?",
+                        "issuer": "Apex Ducks",
+                        "collection": "ApexDucks",
+                        "series": "ApexDucks",
+                        "solMintAddress": "GLQdDA8NWNTPmkWr1Ym1JA9PQaYPyzQQ3oimGRpfnQjm",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://www.arweave.net/_7G8EGJKSg7CeYwkNFRCiaeMKGH3qmqOpBr4NYPePGY?ext=png",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Background": "Red Samurai",
+                            "Base": "Rainbow",
+                            "Clothes": "Button-Up Shirt",
+                            "Eye": "Thin Round Black Glasses",
+                            "Head": "Blue Hat",
+                            "Mouth": "Dagger",
+                            "Frame": "No Frame"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Red Samurai",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "Rainbow",
+                                "trait_type": "Base"
+                            },
+                            {
+                                "value": "Button-Up Shirt",
+                                "trait_type": "Clothes"
+                            },
+                            {
+                                "value": "Thin Round Black Glasses",
+                                "trait_type": "Eye"
+                            },
+                            {
+                                "value": "Blue Hat",
+                                "trait_type": "Head"
+                            },
+                            {
+                                "value": "Dagger",
+                                "trait_type": "Mouth"
+                            },
+                            {
+                                "value": "No Frame",
+                                "trait_type": "Frame"
+                            }
+                        ],
+                        "number": "1760",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": 10,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2022-01-22T21:25:46.941437+00:00",
+                        "createdAt": "2022-01-22T21:25:46.941437+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": true,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": 0.125
+                    },
+                    "issuer": {
+                        "id": 612,
+                        "time": "2021-10-12T06:03:04.283083+00:00",
+                        "status": "approved",
+                        "issuer": "Apex Ducks",
+                        "isVerified": true,
+                        "mintSource": "sol",
+                        "createdAt": 1634018584.283083
+                    },
+                    "collectionDict": {
+                        "id": 405,
+                        "name": "ApexDucks",
+                        "displayName": "ApexDucks",
+                        "twitterUrl": "https://twitter.com/ApexDucks",
+                        "discordUrl": "https://discord.gg/ApexDucks",
+                        "homepageUrl": "https://apexducks.io",
+                        "description": "7,777 of the latest & greatest NFTs to join the Solana Network!",
+                        "markdownDescription": null,
+                        "createdAt": 1635277718.040295,
+                        "featured": true,
+                        "position": 31,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/b6ab0522-1d28-4ecc-a2c0-dac682514e37.jpg",
+                        "avatarImageId": 47002,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/d80321f9-859f-4046-a138-4d35f4456940.jpeg",
+                        "bannerImageId": 47003
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Red Panda Squad",
+                    "total": 432,
+                    "volume": 28110.0873477305,
+                    "first_nft": {
+                        "id": "289094849865894537",
+                        "name": "Red Panda #3113",
+                        "description": "10,000 hand-drawn, algorithmically generated, unique, cute red panda NFTs on Solana.",
+                        "issuer": "Red Panda Squad",
+                        "collection": "Red Panda Squad",
+                        "series": "Red Panda",
+                        "solMintAddress": "BAHodDgVBeJU2RNeU2xf4TqgaPxv6zjZ9CAvexYTwuej",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://www.arweave.net/X7kxy0YpHAn5NG0XYRpBR49raQDJoMwJLg_9TDd5hTU?ext=png",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Background": "Dark Green",
+                            "Body": "Mercurial Blue",
+                            "Clothes": "Save The Pandas",
+                            "Expression": "Happy",
+                            "Neck": "No Trait",
+                            "Eyes": "Robot Goggles",
+                            "Accessory": "No Trait",
+                            "Head": "Party Hat"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Dark Green",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "Mercurial Blue",
+                                "trait_type": "Body"
+                            },
+                            {
+                                "value": "Save The Pandas",
+                                "trait_type": "Clothes"
+                            },
+                            {
+                                "value": "Happy",
+                                "trait_type": "Expression"
+                            },
+                            {
+                                "value": "No Trait",
+                                "trait_type": "Neck"
+                            },
+                            {
+                                "value": "Robot Goggles",
+                                "trait_type": "Eyes"
+                            },
+                            {
+                                "value": "No Trait",
+                                "trait_type": "Accessory"
+                            },
+                            {
+                                "value": "Party Hat",
+                                "trait_type": "Head"
+                            }
+                        ],
+                        "number": "3113",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-10-22T14:51:23.594208+00:00",
+                        "createdAt": "2021-10-22T14:51:23.594208+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "sol"
+                        ],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 412,
+                        "time": "2021-10-10T19:06:05.524730+00:00",
+                        "status": "approved",
+                        "issuer": "Red Panda Squad",
+                        "isVerified": true,
+                        "mintSource": "sol",
+                        "createdAt": 1633892765.52473
+                    },
+                    "collectionDict": {
+                        "id": 2,
+                        "name": "Red Panda Squad",
+                        "displayName": "Red Panda Squad",
+                        "twitterUrl": "https://twitter.com/Red_Panda_Squad",
+                        "discordUrl": "https://discord.gg/redpandasquad",
+                        "homepageUrl": "https://redpandasquad.com/",
+                        "description": "The Red Panda Squad is coming to the masses, entering the metaverse on Solana, publishing an animated series, donating to wildlife charities and much more.",
+                        "markdownDescription": null,
+                        "createdAt": 1634079611.102719,
+                        "featured": true,
+                        "position": 14,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/381909820116026501.png",
+                        "avatarImageId": 4297,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/522034862874602968.png",
+                        "bannerImageId": 3622,
+                        "cardImageUrl": "https://static.ftx.com/nfts/470521967945591360.png",
+                        "cardImageId": 14795
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Red Panda Squad",
+                    "total": 432,
+                    "volume": 28110.0873477305,
+                    "first_nft": {
+                        "id": "289094849865894537",
+                        "name": "Red Panda #3113",
+                        "description": "10,000 hand-drawn, algorithmically generated, unique, cute red panda NFTs on Solana.",
+                        "issuer": "Red Panda Squad",
+                        "collection": "Red Panda Squad",
+                        "series": "Red Panda",
+                        "solMintAddress": "BAHodDgVBeJU2RNeU2xf4TqgaPxv6zjZ9CAvexYTwuej",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://www.arweave.net/X7kxy0YpHAn5NG0XYRpBR49raQDJoMwJLg_9TDd5hTU?ext=png",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Background": "Dark Green",
+                            "Body": "Mercurial Blue",
+                            "Clothes": "Save The Pandas",
+                            "Expression": "Happy",
+                            "Neck": "No Trait",
+                            "Eyes": "Robot Goggles",
+                            "Accessory": "No Trait",
+                            "Head": "Party Hat"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Dark Green",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "Mercurial Blue",
+                                "trait_type": "Body"
+                            },
+                            {
+                                "value": "Save The Pandas",
+                                "trait_type": "Clothes"
+                            },
+                            {
+                                "value": "Happy",
+                                "trait_type": "Expression"
+                            },
+                            {
+                                "value": "No Trait",
+                                "trait_type": "Neck"
+                            },
+                            {
+                                "value": "Robot Goggles",
+                                "trait_type": "Eyes"
+                            },
+                            {
+                                "value": "No Trait",
+                                "trait_type": "Accessory"
+                            },
+                            {
+                                "value": "Party Hat",
+                                "trait_type": "Head"
+                            }
+                        ],
+                        "number": "3113",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-10-22T14:51:23.594208+00:00",
+                        "createdAt": "2021-10-22T14:51:23.594208+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "sol"
+                        ],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 12655,
+                        "time": "2021-12-30T04:52:17.032248+00:00",
+                        "status": "rejected",
+                        "issuer": "Red Panda Squad",
+                        "isVerified": false,
+                        "mintSource": "sol",
+                        "createdAt": 1640839937.032248
+                    },
+                    "collectionDict": {
+                        "id": 2,
+                        "name": "Red Panda Squad",
+                        "displayName": "Red Panda Squad",
+                        "twitterUrl": "https://twitter.com/Red_Panda_Squad",
+                        "discordUrl": "https://discord.gg/redpandasquad",
+                        "homepageUrl": "https://redpandasquad.com/",
+                        "description": "The Red Panda Squad is coming to the masses, entering the metaverse on Solana, publishing an animated series, donating to wildlife charities and much more.",
+                        "markdownDescription": null,
+                        "createdAt": 1634079611.102719,
+                        "featured": true,
+                        "position": 14,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/381909820116026501.png",
+                        "avatarImageId": 4297,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/522034862874602968.png",
+                        "bannerImageId": 3622,
+                        "cardImageUrl": "https://static.ftx.com/nfts/470521967945591360.png",
+                        "cardImageId": 14795
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "World of Women",
+                    "total": 6,
+                    "volume": 26416.04157045,
+                    "first_nft": {
+                        "id": "310996734459794043",
+                        "name": "Woman #627",
+                        "description": "World of Women: 10,000 unique, cool and diverse Women living on the Blockchain.",
+                        "issuer": "World of Women",
+                        "collection": "World of Women",
+                        "series": "Woman",
+                        "solMintAddress": null,
+                        "ethContractAddress": "0xe785E82358879F061BC3dcAC6f0444462D4b5330",
+                        "ethTokenId": "627",
+                        "ethContractType": "erc721",
+                        "imageUrl": "https://lh3.googleusercontent.com/F3XcGEItKdOvS4qQfL-blDQ4XPPg_KE_zGsKli5Mk-HbhjXNXD-ANAeM9wp3WrO98E4P3xNlLhhAnZG3vREQCvbR9dD9HJYpOMeVSG0",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Lips Color": "Passion Red",
+                            "Skin Tone": "Deep Warm Gold",
+                            "Eyes": "Black Straight",
+                            "Earrings": "Classic Hoops",
+                            "Hairstyle": "Natural Red",
+                            "Mouth": "Countryside",
+                            "Clothes": "Red Leather Jacket",
+                            "Background": "Green Orange",
+                            "Facial Features": "Eyebrow Piercing"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Passion Red",
+                                "trait_type": "Lips Color"
+                            },
+                            {
+                                "value": "Deep Warm Gold",
+                                "trait_type": "Skin Tone"
+                            },
+                            {
+                                "value": "Black Straight",
+                                "trait_type": "Eyes"
+                            },
+                            {
+                                "value": "Classic Hoops",
+                                "trait_type": "Earrings"
+                            },
+                            {
+                                "value": "Natural Red",
+                                "trait_type": "Hairstyle"
+                            },
+                            {
+                                "value": "Countryside",
+                                "trait_type": "Mouth"
+                            },
+                            {
+                                "value": "Red Leather Jacket",
+                                "trait_type": "Clothes"
+                            },
+                            {
+                                "value": "Green Orange",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "Eyebrow Piercing",
+                                "trait_type": "Facial Features"
+                            }
+                        ],
+                        "number": "627",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-12-01T04:52:29.434171+00:00",
+                        "createdAt": "2021-12-01T04:52:29.434171+00:00",
+                        "quoteCurrency": "ETH",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "eth"
+                        ],
+                        "withdrawalMethods": [],
+                        "totalSellerFeeRate": 0.06,
+                        "royaltyFeeRate": 0.04,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "eth",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 6934,
+                        "time": "2021-12-01T04:51:27.618175+00:00",
+                        "status": "approved",
+                        "issuer": "World of Women",
+                        "isVerified": true,
+                        "mintSource": "eth",
+                        "createdAt": 1638334287.618175
+                    },
+                    "collectionDict": {
+                        "id": 1946,
+                        "name": "World of Women",
+                        "displayName": "World of Women",
+                        "twitterUrl": "https://twitter.com/worldofwomennft",
+                        "discordUrl": "https://discord.gg/worldofwomen",
+                        "homepageUrl": "https://worldofwomen.art/",
+                        "description": "A collection of unique, cool and diverse Women, ready to leave a mark in the NFT space! World of Women was created to bring diversity and inclusiveness to the NFT space while bridging the gap between collectibles and single edition art worlds. 10,000 randomly generated digital collectibles of various rarity living on the Ethereum blockchain as ERC-721 tokens and hosted on IPFS. Created and Illustrated by Yam Karkai (@ykarkai)",
+                        "markdownDescription": null,
+                        "createdAt": 1638341610.371681,
+                        "featured": true,
+                        "position": 25,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/491618276969209411.jpeg",
+                        "avatarImageId": 25214,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/425025709255478713.jpeg",
+                        "bannerImageId": 25215
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Aural Light Collection on Solana",
+                    "total": 74,
+                    "volume": 24670.985324614,
+                    "first_nft": {
+                        "id": "297408091011415195",
+                        "name": "Aural Light Collection on Solana #5",
+                        "description": "The Aural Light Collection is a collection of original pictures taken by the anonymous artist B.W.\n\nAural Light Collection NFTs are intended to be held and treasured forever by the owners, and their heirs, or traded on the open market in a way that is reflective of their high artistic value.\n\nWe hope that you find enjoyment and value in our collection.\n\nThank you for your patronage.",
+                        "issuer": "Aural Light Collection on Solana",
+                        "collection": "Aural Light Collection on Solana",
+                        "series": "Aural Light Collection on Solana",
+                        "solMintAddress": null,
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://static.ftx.com/nfts/327392780084106032.jpg",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Solana Exclusive": "True",
+                            "Light Play": "True",
+                            "Flowers": "True"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "True",
+                                "trait_type": "Solana Exclusive"
+                            },
+                            {
+                                "value": "True",
+                                "trait_type": "Light Play"
+                            },
+                            {
+                                "value": "True",
+                                "trait_type": "Flowers"
+                            }
+                        ],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-09-07T07:53:49.721255+00:00",
+                        "createdAt": "2021-09-07T07:53:49.721255+00:00",
+                        "quoteCurrency": "USD",
+                        "auction": null,
+                        "minNextBid": 1,
+                        "depositMethods": [],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.02,
+                        "royaltyFeeRate": 0,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": true,
+                        "fungible": false,
+                        "mintSource": "ftx",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 117,
+                        "time": "2021-09-07T07:36:53.884365+00:00",
+                        "status": "approved",
+                        "issuer": "Aural Light Collection on Solana",
+                        "isVerified": false,
+                        "mintSource": "ftx",
+                        "createdAt": 1631000213.884365
+                    },
+                    "collectionDict": {
+                        "id": 204,
+                        "name": "Aural Light Collection on Solana",
+                        "displayName": "Aural Light Collection on Solana",
+                        "twitterUrl": null,
+                        "discordUrl": null,
+                        "homepageUrl": null,
+                        "description": null,
+                        "markdownDescription": null,
+                        "createdAt": 1634799349.649762
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Earl Campbell's Playbooks",
+                    "total": 548,
+                    "volume": 23805.33,
+                    "first_nft": {
+                        "id": "288546594477365537",
+                        "name": "Earl Campbell's Playbook: LA Rams vs Houston Oilers - September 4th, 1978 #85",
+                        "description": "Earl Campbell takes a toss, running through several Rams defenders as they rip him out of his jersey, unable to take him down. The play would earn him the moniker, \"The Human Wrecking Ball.\" That year, Campbell would lead the league with 1,450 yards and earn the NFL Offensive Player of the Year honor.\n\nFans that collect all 4 Playbooks from Earl Campbell by August 9, 2021 at 11:59 PM EST will be invited to join a digital meet-and-greet with Earl himself. The collector who purchases the most Earl Campbell Playbooks within that same window will receive a signed jersey and helmet from Earl. Full terms and conditions can be found at ftx.us/hof_terms.pdf. ",
+                        "issuer": "Hall of Fame Village Media",
+                        "collection": "Earl Campbell's Playbooks",
+                        "series": "Earl Campbell's Playbook: LA Rams vs Houston Oilers - September 4th, 1978",
+                        "solMintAddress": null,
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://static.ftx.com/hof/EC_ICON.jpg",
+                        "videoUrl": "https://iframe.videodelivery.net/25f8610bdb2f8381501d9202e629a11e",
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {},
+                        "attributesList": [],
+                        "number": 85,
+                        "totalQuantity": 750,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": 60,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-10-20T05:47:12.109483+00:00",
+                        "createdAt": "2021-10-20T05:47:12.109483+00:00",
+                        "quoteCurrency": "USD",
+                        "auction": null,
+                        "minNextBid": 1,
+                        "depositMethods": [],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.02,
+                        "royaltyFeeRate": 0,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": true,
+                        "fungible": false,
+                        "mintSource": "ftx",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 8766,
+                        "time": "2021-12-12T06:32:32.270856+00:00",
+                        "status": "approved",
+                        "issuer": "Hall of Fame Village Media",
+                        "isVerified": false,
+                        "mintSource": "ftx",
+                        "createdAt": 1639290752.270856
+                    },
+                    "collectionDict": {
+                        "id": 6182,
+                        "name": "Earl Campbell's Playbooks",
+                        "displayName": "Earl Campbell's Playbooks",
+                        "twitterUrl": null,
+                        "discordUrl": null,
+                        "homepageUrl": null,
+                        "description": null,
+                        "markdownDescription": null,
+                        "createdAt": 1639290752.270856,
+                        "featured": true,
+                        "position": 3
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Genopet Eggs",
+                    "total": 19,
+                    "volume": 21310.549275295,
+                    "first_nft": {
+                        "id": "318125928970163774",
+                        "name": "Cracked Genopet Egg #256",
+                        "description": "This egg has cracked and can no longer be hatched into a Genopet.",
+                        "issuer": "CRACKED",
+                        "collection": "Genopet Eggs",
+                        "series": "Genopet Egg",
+                        "solMintAddress": "FmPnfBXGHKUxgXGcF82v3uSX1rF28ojeFYv1DgJ4dtCv",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://arweave.net/h9fUMsvnWV8X3DOHz_fMwLoYCacL5AQYAHOM5sswXqA",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "sequence": 256
+                        },
+                        "attributesList": [
+                            {
+                                "value": 256,
+                                "trait_type": "sequence",
+                                "display_type": "number"
+                            }
+                        ],
+                        "number": null,
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-10-16T13:38:59.702655+00:00",
+                        "createdAt": "2021-10-16T13:38:59.702655+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "sol"
+                        ],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": null
+                    },
+                    "issuer": null,
+                    "collectionDict": {
+                        "id": 6020,
+                        "name": "Genopet Eggs",
+                        "displayName": "Genopet Eggs",
+                        "twitterUrl": null,
+                        "discordUrl": null,
+                        "homepageUrl": null,
+                        "description": null,
+                        "markdownDescription": null,
+                        "createdAt": 1639290316.880154
+                    }
+                },
+                {
+                    "group_type": "collection",
+                    "group_id": "Jungle Cats",
+                    "total": 195,
+                    "volume": 20223.378214025,
+                    "first_nft": {
+                        "id": "289219855328585757",
+                        "name": "JungleCats #4517",
+                        "description": "The King of the Solana Jungle has arrived! These high-quality 3D Cats do a whole lot more than just look good. Just wait until you see these cats stomping around the metaverse! https://junglecats.io/",
+                        "issuer": "Jungle Cats",
+                        "collection": "Jungle Cats",
+                        "series": "JungleCats",
+                        "solMintAddress": "JE7heriD8i7dEZvg2HSWnUa5CLTdUobAZx7Tmy4dZqs8",
+                        "ethContractAddress": null,
+                        "ethTokenId": null,
+                        "ethContractType": null,
+                        "imageUrl": "https://www.arweave.net/TCmf4JCl1-87BZ39u2MzR_zFsjsj2mVG4eUWXDrZDEg?ext=png",
+                        "videoUrl": null,
+                        "animationUrl": null,
+                        "thumbnailUrl": null,
+                        "attributes": {
+                            "Accessory": "Solana Chain",
+                            "Background": "Purple",
+                            "Eyes": "Opera Mask",
+                            "Head": "Black Bucket Hat",
+                            "Mouth": "None",
+                            "Nose": "None",
+                            "Skin": "Ice",
+                            "Top": "Red Puffer"
+                        },
+                        "attributesList": [
+                            {
+                                "value": "Solana Chain",
+                                "trait_type": "Accessory"
+                            },
+                            {
+                                "value": "Purple",
+                                "trait_type": "Background"
+                            },
+                            {
+                                "value": "Opera Mask",
+                                "trait_type": "Eyes"
+                            },
+                            {
+                                "value": "Black Bucket Hat",
+                                "trait_type": "Head"
+                            },
+                            {
+                                "value": "None",
+                                "trait_type": "Mouth"
+                            },
+                            {
+                                "value": "None",
+                                "trait_type": "Nose"
+                            },
+                            {
+                                "value": "Ice",
+                                "trait_type": "Skin"
+                            },
+                            {
+                                "value": "Red Puffer",
+                                "trait_type": "Top"
+                            }
+                        ],
+                        "number": "4517",
+                        "totalQuantity": null,
+                        "redeemable": false,
+                        "redeemed": false,
+                        "offerPrice": null,
+                        "donation": false,
+                        "status": "approved",
+                        "needsListingFee": false,
+                        "created_at": "2021-11-01T11:49:27.411129+00:00",
+                        "createdAt": "2021-11-01T11:49:27.411129+00:00",
+                        "quoteCurrency": "SOL",
+                        "auction": null,
+                        "minNextBid": 0.001,
+                        "depositMethods": [
+                            "sol"
+                        ],
+                        "withdrawalMethods": [
+                            "sol"
+                        ],
+                        "totalSellerFeeRate": 0.07,
+                        "royaltyFeeRate": 0.05,
+                        "userReason": null,
+                        "userNotes": null,
+                        "useCloudflare": true,
+                        "hasOwner": false,
+                        "fungible": false,
+                        "mintSource": "sol",
+                        "minBidNotification": null
+                    },
+                    "issuer": {
+                        "id": 403,
+                        "time": "2021-10-10T19:06:05.332315+00:00",
+                        "status": "approved",
+                        "issuer": "Jungle Cats",
+                        "isVerified": true,
+                        "mintSource": "sol",
+                        "createdAt": 1633892765.332315
+                    },
+                    "collectionDict": {
+                        "id": 123,
+                        "name": "Jungle Cats",
+                        "displayName": "Jungle Cats",
+                        "twitterUrl": "https://twitter.com/JungleCatsIO",
+                        "discordUrl": "https://discord.gg/ZvxjqvXk6T",
+                        "homepageUrl": "https://junglecats.io",
+                        "description": "5,585 High Quality 3D Generative Jungle Cats incorporating breeding and airdrops to holders.",
+                        "markdownDescription": null,
+                        "createdAt": 1634572960.771262,
+                        "featured": true,
+                        "position": 19,
+                        "avatarImageUrl": "https://static.ftx.com/nfts/411322170816155094.jpeg",
+                        "avatarImageId": 5124,
+                        "bannerImageUrl": "https://static.ftx.com/nfts/59bcf468-73bf-4ac9-9292-bfaeeeb3d6f7.jpeg",
+                        "bannerImageId": 46986,
+                        "cardImageUrl": "https://static.ftx.com/nfts/435380134822926246.jpeg",
+                        "cardImageId": 5125
+                    }
+                }
+            ]
+        }
+    },
+    "status": 200,
+    "statusText": "",
+    "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+        "cache-control": "public, max-age=300",
+        "cf-cache-status": "EXPIRED",
+        "cf-ray": "6edfda122e990b9d-DFW",
+        "content-encoding": "gzip",
+        "content-security-policy": "block-all-mixed-content",
+        "content-type": "application/json, application/json; charset=utf-8",
+        "date": "Fri, 18 Mar 2022 17:57:48 GMT",
+        "etag": "W/\"4478a025f43e15f12563dcda7e329f4e\"",
+        "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "vary": "Accept-Encoding, Accept-Encoding, Origin",
+        "x-cache-status": "EXPIRED",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "sameorigin",
+        "x-xss-protection": "1; mode=block"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "headers": {
+            "Accept": "application/json, text/plain, */*"
+        },
+        "params": {
+            "startInclusive": 25,
+            "endExclusive": 50,
+            "collectionsType": "all"
+        },
+        "method": "get",
+        "url": "https://ftx.us/api/nft/collections_page"
+    },
+    "request": {}
+}

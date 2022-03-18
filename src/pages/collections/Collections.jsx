@@ -47,7 +47,7 @@ export default function Collections() {
       <Box sx={{ p: 1 }}>
         <Pagination
           onChange={handleChangePage}
-          count={Math.floor(totalCollections / itemsPerPage)}
+          count={totalCollections && Math.floor(totalCollections / itemsPerPage)}
           variant="outlined"
           color="primary"
         />
@@ -62,7 +62,10 @@ export default function Collections() {
           )}
         </Grid>
       ) : (
-        <Box sx={{ textAlign: "center", marginTop: 17 }}>
+        <Box
+          data-testid="circularProgress"
+          sx={{ textAlign: "center", marginTop: 17 }}
+        >
           <CircularProgress />
         </Box>
       )}

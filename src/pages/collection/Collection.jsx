@@ -5,6 +5,7 @@ import {
   CircularProgress,
   Box,
   Typography,
+  Link,
 } from "@mui/material"
 import React, { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
@@ -12,9 +13,7 @@ import NftCard from "./NftCard"
 import theme from "../../theme"
 import getCollectionData from "../../api/getCollectionData"
 
-
 export default function Collection() {
-  const navigate = useNavigate()
   const { collectionName } = useParams()
   const [collectionData, setCollectionData] = useState(undefined)
 
@@ -35,9 +34,11 @@ export default function Collection() {
       <AppBar position="static">
         <Toolbar>
           <Typography color={theme.palette.text.primary} variant="h5">
-            <a href="/">Collections</a>
-            &gt;
-            {` ${collectionName} `}
+            <Link href="/" color="primary">
+              Collections
+            </Link>
+            {"  >"}
+            {`  ${collectionName} `}
           </Typography>
         </Toolbar>
       </AppBar>

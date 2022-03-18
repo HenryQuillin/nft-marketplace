@@ -19,7 +19,7 @@ export default function CollectionCard({
 }) {
   const navigate = useNavigate()
   return (
-    <Card onClick={() => navigate(`/${name}`)}>
+    <Card data-testid="collection-card" onClick={() => navigate(`/${name}`)}>
       <CardActionArea>
         <div
           style={{
