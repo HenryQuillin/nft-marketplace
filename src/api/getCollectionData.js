@@ -9,7 +9,6 @@ export default function getCollectionData(setCollectionData, collectionName) {
     })
     .then(function (response) {
       const { data } = response
-      console.log(data)
 
       const { result } = data
       const newCollectionData = {}
