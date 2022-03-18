@@ -42,32 +42,33 @@ export default function Collection() {
           </Typography>
         </Toolbar>
       </AppBar>
-
-      {collectionData === undefined && (
-        <Box textAlign="center" paddingTop={10}>
-          <CircularProgress />
-        </Box>
-      )}
-      {collectionData !== undefined && collectionData && (
-        <Grid container spacing={2}>
-          {Object.keys(collectionData).map((nftId) => getNftCard(nftId))}
-        </Grid>
-      )}
-      {collectionData && Object.keys(collectionData).length === 0 && (
-        <div>
-          <Box textAlign="center" mt={10}>
-            <Typography variant="h5">
-              Sorry, this collection contains no listed NFTs:(
-            </Typography>
-            <Box
-              component="img"
-              sx={{ pt: 3 }}
-              alt="header"
-              src="https://c.tenor.com/1raYW_MZrMwAAAAM/dog-cute.gif"
-            />
+      <Box sx={{ p: 2 }}>
+        {collectionData === undefined && (
+          <Box textAlign="center" paddingTop={10}>
+            <CircularProgress />
           </Box>
-        </div>
-      )}
+        )}
+        {collectionData !== undefined && collectionData && (
+          <Grid container spacing={2}>
+            {Object.keys(collectionData).map((nftId) => getNftCard(nftId))}
+          </Grid>
+        )}
+        {collectionData && Object.keys(collectionData).length === 0 && (
+          <div>
+            <Box textAlign="center" mt={10}>
+              <Typography variant="h5">
+                Sorry, this collection contains no listed NFTs:(
+              </Typography>
+              <Box
+                component="img"
+                sx={{ pt: 3 }}
+                alt="header"
+                src="https://c.tenor.com/1raYW_MZrMwAAAAM/dog-cute.gif"
+              />
+            </Box>
+          </div>
+        )}
+      </Box>
     </div>
   )
 }

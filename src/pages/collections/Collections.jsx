@@ -55,22 +55,24 @@ export default function Collections() {
         />
       </Box>
 
-      {collectionsData ? (
-        <Grid container spacing={2}>
-          {Object.keys(collectionsData).map(
-            (collectionId) =>
-              collectionsData[collectionId].name.includes(filter) &&
-              getCollectionCard(collectionId)
-          )}
-        </Grid>
-      ) : (
-        <Box
-          data-testid="circularProgress"
-          sx={{ textAlign: "center", marginTop: 17 }}
-        >
-          <CircularProgress />
-        </Box>
-      )}
+      <Box sx={{ paddingLeft: "16px", paddingRight: "16px" }}>
+        {collectionsData ? (
+          <Grid container spacing={2}>
+            {Object.keys(collectionsData).map(
+              (collectionId) =>
+                collectionsData[collectionId].name.includes(filter) &&
+                getCollectionCard(collectionId)
+            )}
+          </Grid>
+        ) : (
+          <Box
+            data-testid="circularProgress"
+            sx={{ textAlign: "center", marginTop: 17 }}
+          >
+            <CircularProgress />
+          </Box>
+        )}
+      </Box>
     </div>
   )
 }

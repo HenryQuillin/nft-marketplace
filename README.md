@@ -49,7 +49,8 @@
 - Implement a skeleton card animation instead of a circular spinner while the data is loading 
 - Add a dropdown that allows the user to filter collections by currency type 
 - Add a dropdown that allows the user to sort NFTs by price
-- Implement pagination for the NFT page
+- Implement pagination for the NFT grid page
+- Add a loading icon to the NFT details page 
 
 # Contact 
 - I appreciate this opportunity! I really enjoyed working on this project :)
