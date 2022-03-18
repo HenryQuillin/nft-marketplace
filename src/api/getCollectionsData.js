@@ -3,8 +3,8 @@ import axios from "axios"
 export default async function getCollectionsData(
   setCollectionsData,
   setTotalCollections,
-  _startInclusive = 25,
-  _endExclusive = 50,
+  _startInclusive = 26,
+  _endExclusive = 51,
   _collectionsType = "all"
 ) {
   setCollectionsData(undefined)
@@ -19,6 +19,7 @@ export default async function getCollectionsData(
   const { data } = response
 
   const { result } = data
+  console.log(result)
 
   setTotalCollections(result.count)
   const newCollectionsData = {}

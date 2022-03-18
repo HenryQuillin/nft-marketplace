@@ -19,7 +19,6 @@ export default function Header() {
         alt="header"
         src={header2}
       />
-      {/* <SearchBar/> */}
     </Box>
   )
 }

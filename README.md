@@ -39,6 +39,11 @@
     yarn run start 
     ```
 
+# Issues 
+ Either I am doing something wrong in my GET request, or there are some discrepancies in the API data. 
+ For example, in the https://ftx.us/api/nft/collections_page endpoint, it returns an object saying that there are a total of 15 NFTs in the 'Creature World' collection. ![API-issue](src/assets/API-issue.png). However, the https://ftx.us/api/nft/nfts_filtered end point says that there are 
+
+I ran into some problems when trying to request the filtered NFT data. For some collections, like 'Fancy Frenchies' and 'Creature World' the API response contains all the expected.
 # Decisions and tradeoffs 
 ### Global State 
 - I decided against using a global state management tool like Redux because it would introduce a lot of superfluous boilerplate code. Not only is this a very small project, but all the state variable flow one way -- making a global state unnecessary. 

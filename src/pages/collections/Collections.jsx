@@ -10,7 +10,7 @@ export default function Collections() {
   const [collectionsData, setCollectionsData] = useState(undefined)
   const [filter, setFilter] = useState("")
   const [totalCollections, setTotalCollections] = useState()
-  const itemsPerPage = 25
+  const itemsPerPage = 25 // Future improvement is to allow user to select a different # of items per page
 
   useEffect(() => {
     getCollectionsData(setCollectionsData, setTotalCollections)

@@ -57,6 +57,8 @@ https://ftx.us/api/nft/collections_page?startInclusive=10&endExclusive=40&collec
 #### Get NFTs
 GET https://ftx.us/api/nft/nfts_filtered
 
+https://ftx.us/api/nft/nfts_filtered?nft_filter_string=%7B%22collection%22:%22Worldwide+Webb+Land%22%7D
+
 | Parameters |       type        |      description  |
 | ---------- | ----------------- | ----------------- |
 | startInclusive   | number |          item offset (i.e. 0)         |
