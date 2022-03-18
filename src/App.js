@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Collections />} />
-          <Route path="/:collectionId" element={<Collection />} />
+          <Route path="/:collectionName" element={<Collection />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

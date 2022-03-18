@@ -40,4 +40,7 @@ export default createTheme({
       fontSize: "0.8rem",
     },
   },
+  shape: {
+    borderRadius:8,
+  }
 })

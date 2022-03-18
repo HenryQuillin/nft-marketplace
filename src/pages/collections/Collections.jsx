@@ -1,145 +1,109 @@
-import {
-  Toolbar,
-  AppBar,
-  Grid,
-  Typography,
-  Card,
-  CardMedia,
-  CardContent,
-  CircularProgress,
-  CardActionArea,
-} from "@mui/material"
+import CollectionCard from "../../components/CollectionCard"
+import { Grid, Box, CircularProgress, Pagination } from "@mui/material"
 import React, { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom"
 import axios from "axios"
-import theme from "../../theme"
+import CollectionsAppBar from "./CollectionsAppBar"
+import { ConstructionOutlined } from "@mui/icons-material"
 
 export default function Collections() {
   const navigate = useNavigate()
-  const [collectionData, setCollectionData] = useState({})
-  // const [filter, setFilter] = useState("")
+  const [collectionsData, setCollectionsData] = useState(undefined)
+  const [filter, setFilter] = useState("")
+  const [dataRange, setDataRange] = useState({
+    startInclusive: 0,
+    endExclusive: 25,
+  })
 
-  useEffect(() => {
+  const getData = () => {
+    console.log("getData called")
+    setCollectionsData(undefined)
+
     axios
       .get(`https://ftx.us/api/nft/collections_page`, {
         params: {
-          startInclusive: 10,
-          endExclusive: 40,
+          startInclusive: dataRange ? dataRange.startInclusive : 0,
+          endExclusive: dataRange ? dataRange.endExclusive : 25,
           collectionsType: "all",
         },
       })
       .then(function (response) {
-        console.log(response)
         const { data } = response
+        console.log(data)
         const { result } = data
-        console.log(result)
-        const newCollectionData = {}
+        const newCollectionsData = {}
         result.collections.forEach((collection, index) => {
-          newCollectionData[index] = {
+          newCollectionsData[index] = {
             id: collection.collectionDict.id,
-            name: collection.group_id,
+            name: collection.collectionDict.name,
             sprite: collection.first_nft.imageUrl,
             total: collection.total,
             floor: collection.first_nft.offerPrice,
+            currency: collection.first_nft.quoteCurrency,
           }
         })
-        setCollectionData(newCollectionData)
+        setCollectionsData(newCollectionsData)
       })
+  }
+
+  useEffect(() => {
+    getData()
   }, [])
-  // const handleSearchChange = (e) => {
-  //   setFilter(e.target.value)
-  // }
+
+  const handleSearchChange = (e) => {
+    setFilter(e.target.value)
+  }
+  const handleChangePage = (event, value) => {
+    const start = value * 25
+    const end = start + 25
+    console.log(dataRange)
+
+    setDataRange({
+      startInclusive: start,
+      endExclusive: end,
+    })
+    getData()
+    console.log(dataRange)
+  }
 
   const getCollectionCard = (collectionId) => {
-    const { id, name, sprite, total, floor } = collectionData[collectionId]
+    const { name, sprite, total, floor, currency } =
+      collectionsData[collectionId]
     return (
       <Grid item xs={12} sm={6} md={4} lg={3} xl={2} key={collectionId}>
-        <Card onClick={() => navigate(`/${id}`)}>
-          <CardActionArea>
-            <div
-              style={{
-                width: "100%",
-                minWidth: "173px",
-                height: "0px",
-                paddingBottom: "100%",
-                overflow: "hidden",
-              }}
-            >
-              <CardMedia
-                image={sprite}
-                component="img"
-                alt="green iguana"
-                // height="100%"
-                // width="100%"
-              />
-            </div>
-            <CardContent sx={{ p: 2 }}>
-              <Typography
-                variant="h5"
-                sx={{ whiteSpace: "nowrap" }}
-              >{`${name}`}</Typography>
-              <Grid
-                container
-                spacing={2}
-                sx={{ mt: 2 }}
-                style={{
-                  marginTop: "16px",
-                  display: "flex",
-                  flexWrap: "nowrap",
-                  alignItems: "flex-end",
-                }}
-              >
-                <Grid
-                  item
-                  xs={6}
-                  style={{ display: "flex", flexDirection: "column" }}
-                >
-                  <Typography variant="h6" color={theme.palette.text.secondary}>
-                    NFTs
-                  </Typography>
-                  <Typography variant="h5">{`${total}`}</Typography>
-                </Grid>
-                {floor ? (
-                  <div>
-                    {" "}
-                    <Grid
-                      item
-                      xs={6}
-                      style={{ display: "flex", flexDirection: "column" }}
-                    >
-                      <Typography
-                        variant="h6"
-                        color={theme.palette.text.secondary}
-                        sx={{ whiteSpace: "pre" }}
-                      >
-                        Floor Price
-                      </Typography>
-                      <Typography variant="h5">{`${floor}`}</Typography>
-                    </Grid>
-                  </div>
-                ) : (
-                  ""
-                )}
-              </Grid>
-            </CardContent>
-          </CardActionArea>
-        </Card>
+        <CollectionCard
+          navigate={navigate}
+          name={name}
+          sprite={sprite}
+          total={total}
+          floor={floor}
+          currency={currency}
+        />
       </Grid>
     )
   }
   return (
     <div>
-      <AppBar position="static">
-        <Toolbar />
-      </AppBar>
-      {collectionData ? (
+      <CollectionsAppBar handleSearchChange={handleSearchChange} />
+      <Pagination
+        onChange={handleChangePage}
+        count={10}
+        variant="outlined"
+        color="primary"
+      />
+
+      {collectionsData ? (
         <Grid container spacing={2}>
-          {Object.keys(collectionData).map((collectionId) =>
-            getCollectionCard(collectionId)
+          {Object.keys(collectionsData).map(
+            (collectionId) =>
+              collectionsData[collectionId].name.includes(filter) &&
+              getCollectionCard(collectionId)
           )}
         </Grid>
       ) : (
-        <CircularProgress />
+        <Box sx={{ textAlign: "center", marginTop: 17 }}>
+          <CircularProgress />
+        </Box>
       )}
     </div>
   )

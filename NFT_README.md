@@ -24,6 +24,7 @@ For any other questions, please reach out to taylor@ftx.com.
 
 ## API Endpoints
 
+
 **See `Models` below for corresponding types in `Response`**
 
 #### Get NFT collections
@@ -35,6 +36,8 @@ GET https://ftx.us/api/nft/collections_page
 | startInclusive   | number |          item offset (i.e. 0)         |
 | endExclusive      | number            | startInclusive + amount per page (i.e. 25) |
 | collectionType      | 'all', 'ftx', 'sol', 'eth'    | types of NFT collections to show |
+
+https://ftx.us/api/nft/collections_page?startInclusive=10&endExclusive=40&collectionsType=all 
 
 `Response`
 ```

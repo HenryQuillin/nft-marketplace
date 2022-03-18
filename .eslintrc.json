@@ -27,7 +27,10 @@
 
   "rules": {
     "import/order":"off",
-    "prettier/prettier": ["warning", {"singleQuote": false,"semi":false}],
+    "react/jsx-props-no-spreading":0,
+    "no-unused-vars":"warn",
+    "react/jsx-no-undef":"warn",
+    "prettier/prettier": [1, {"singleQuote": false,"semi":false}],
   "no-restricted-imports":"off",
     "react/prop-types":0,
     "react/jsx-filename-extension": [
