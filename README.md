@@ -13,12 +13,13 @@
  - Jest 
 # How to set up 
 1. Clone the repo:
-
+    ```
     git clone https://github.com/HenryQuillin/nft-marketplace.git
+    ```
  2. Navigate to the project file: 
- 
-
+    ```
     cd nft-marketplace
+    ```
 2. Make sure you have yarn installed. If you don't, run 
     ```
     npm install yarn
