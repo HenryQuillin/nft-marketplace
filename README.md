@@ -41,7 +41,7 @@
 
 # Decisions and tradeoffs 
 ### Global State 
-- I decided against using a global state management tool like Redux because it would introduce a lot of superfluous boilerplate code. Not only is this a very small project, all the state variable flow one way -- making a global state unnecessary. 
+- I decided against using a global state management tool like Redux because it would introduce a lot of superfluous boilerplate code. Not only is this a very small project, but all the state variable flow one way -- making a global state unnecessary. 
 ### Pagination 
 - There were a couple ways I could have implemented pagination for the collections page. One idea I had was to request all the collection data from the API, and then filter the shown collections separately according to the page (i.e 1, 2, 3, etc...) the user has selected. This would make switching to different pages (the page of the collections grid, not the url) faster. However, this would also greatly increase the initial page load time. 
 - Instead, I decided to only query the data for the current page, and make a new request every time the user selects a different page. My thought process is that we don't know whether the user will actually switch pages, so while the user who searches through a ton of the collection pages will have to wait longer, most users --who only look through one or two pages-- will enjoy the faster initial load time.  
