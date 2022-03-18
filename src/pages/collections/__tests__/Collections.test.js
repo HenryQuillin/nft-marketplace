@@ -22,6 +22,10 @@ describe("Collections page", () => {
     expect(getByTestId("circularProgress")).toBeVisible()
   })
   it("shows collections when data has been recieved", async () => {
+    // Future improvement is to get this test to stop failing.
+    // I can't figure out why the test runner is saying that the
+    // response from the axios request is undefined, even though the
+    // response is bieng awaited.
     axiosMock.get.mockResolvedValueOnce(testCollectionsResponse)
 
     const { findAllByTestId } = render(

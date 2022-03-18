@@ -17,9 +17,7 @@ export default async function getCollectionsData(
     },
   })
   const { data } = response
-
   const { result } = data
-  console.log(result)
 
   setTotalCollections(result.count)
   const newCollectionsData = {}

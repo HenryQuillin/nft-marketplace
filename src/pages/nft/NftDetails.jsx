@@ -18,6 +18,8 @@ export default function NftDetails({ nftData }) {
             Name
           </Typography>
           <Typography variant="h6B" color={theme.palette.text.primary}>
+            {/* It is probrably best practice to remove the theme.palette.text.primary, as it already has that color 
+           by default. I left it in because it is helpful to differentiate which text is the header and which is the value  */}
             {nftData && nftData.name}
           </Typography>
           <Typography variant="h6" color={theme.palette.text.secondary}>

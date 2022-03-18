@@ -25,6 +25,7 @@ export default function NftPage() {
     <div>
       <AppBar position="static">
         <Toolbar>
+          {/* Future imrpovement is to refactor this into a MUI breadcrumbs component */}
           <Typography color={theme.palette.text.primary} variant="h5">
             <Link href="/" color="primary">
               Collections
