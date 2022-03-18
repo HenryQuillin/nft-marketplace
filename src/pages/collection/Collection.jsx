@@ -8,11 +8,10 @@ import {
 } from "@mui/material"
 import React, { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
-import axios from "axios"
-import NftCard from "../../components/NftCard"
+import NftCard from "./NftCard"
 import theme from "../../theme"
+import getCollectionData from "../../api/getCollectionData"
 
-// import theme from "../../theme"
 
 export default function Collection() {
   const navigate = useNavigate()
@@ -20,31 +19,7 @@ export default function Collection() {
   const [collectionData, setCollectionData] = useState(undefined)
 
   useEffect(() => {
-    axios
-      .get(`https://ftx.us/api/nft/nfts_filtered`, {
-        params: {
-          nft_filter_string: { collection: `${collectionName}` },
-        },
-      })
-      .then(function (response) {
-        const { data } = response
-        console.log(data)
-
-        const { result } = data
-        const newCollectionData = {}
-        result.nfts.forEach((nft, index) => {
-          newCollectionData[index] = {
-            id: nft.id,
-            name: nft.name,
-            image: nft.imageUrl,
-            offerPrice: nft.offerPrice,
-            collectionName: nft.collection,
-            highestBid: nft.highestBid,
-            currency: nft.quoteCurrency,
-          }
-        })
-        setCollectionData(newCollectionData)
-      })
+    getCollectionData(setCollectionData, collectionName)
   }, [])
 
   const getNftCard = (nftId) => {
@@ -61,7 +36,7 @@ export default function Collection() {
         <Toolbar>
           <Typography color={theme.palette.text.primary} variant="h5">
             <a href="/">Collections</a>
-            &gt;  
+            &gt;
             {` ${collectionName} `}
           </Typography>
         </Toolbar>

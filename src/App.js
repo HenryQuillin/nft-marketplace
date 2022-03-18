@@ -16,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Collections />} />
           <Route path="/:collectionName" element={<Collection />} />
+          <Route path="/nfts/:nftId" element={<Collection />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

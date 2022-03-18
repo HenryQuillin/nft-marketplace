@@ -7,16 +7,15 @@ import {
   CardContent,
   CardActionArea,
 } from "@mui/material"
-import theme from "../theme"
+import theme from "../../theme"
 import { useNavigate } from "react-router-dom"
 
-export default function NftCard({
-  collectionName,
+export default function CollectionCard({
   name,
-  offerPrice,
-  highestBid,
-  image,
-  currency
+  sprite,
+  total,
+  floor,
+  currency,
 }) {
   const navigate = useNavigate()
   return (
@@ -31,17 +30,13 @@ export default function NftCard({
             overflow: "hidden",
           }}
         >
-          <CardMedia image={image} component="img" alt={`image of ${name}`} />
+          <CardMedia image={sprite} component="img" alt={`image of ${name}`} />
         </div>
         <CardContent
           sx={{
             p: 2,
           }}
         >
-          <Typography
-            variant="h6"
-            color={theme.palette.text.secondary}
-          >{`${collectionName}`}</Typography>
           <Typography
             variant="h5"
             sx={{
@@ -70,11 +65,11 @@ export default function NftCard({
               }}
             >
               <Typography variant="h6" color={theme.palette.text.secondary}>
-                Price  
+                NFTs
               </Typography>
-              <Typography variant="h5">{`${offerPrice} `}<span style={{color:theme.palette.text.secondary, fontSize:"1rem"}} >{`${currency}`}</span></Typography>
+              <Typography variant="h5">{`${total}`}</Typography>
             </Grid>
-            {highestBid ? (
+            {floor ? (
               <div>
                 {" "}
                 <Grid
@@ -93,9 +88,11 @@ export default function NftCard({
                       whiteSpace: "pre",
                     }}
                   >
-                    Highest Bid
+                    Floor Price
                   </Typography>
-                  <Typography variant="h5">{`${highestBid}`}</Typography>
+                  <Typography variant="h5">
+                    {`${floor}`} <span style={{color:theme.palette.text.secondary, fontSize:"1rem"}} >{`${currency}`}</span>
+                  </Typography>
                 </Grid>
               </div>
             ) : (
